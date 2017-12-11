@@ -1,0 +1,571 @@
+ hostname is         nxv28
+ this is node-proc. number 0 running on node nxv28
+ the total number of node-proc. spawned is   1
+
+   OpenMP run-time library returned nthreads =  4
+
+ ricc2 (nxv28) : TURBOMOLE V7.0( 19819 ) 16 Jun 2015 at 16:30:15
+ Copyright (C) 2015 TURBOMOLE GmbH, Karlsruhe
+
+
+    2017-10-09 12:00:30.850 
+
+
+
+                              R I C C 2 - PROGRAM
+
+                          the quantum chemistry groups
+                             at the universities in
+                           Karlsruhe, Bochum & Mainz
+                                   Germany
+
+
+
+   *-----------------------------------------------------------------------*
+   |                     program will use  4 thread(s)                     |
+   *-----------------------------------------------------------------------*
+
+
+              +--------------------------------------------------+
+              | Atomic coordinate, charge and isotop information |
+              +--------------------------------------------------+
+
+                    atomic coordinates            atom    charge  isotop
+          6.01348946   -1.15852404   -0.06262510    c      6.000     0
+          6.62580861   -1.24654917    2.54686348    c      6.000     0
+          9.14213149   -1.37612308    3.33568033    c      6.000     0
+         11.09284994   -1.45583607    1.55192548    c      6.000     0
+         10.52942934   -1.38945548   -1.03398722    c      6.000     0
+          8.02133656   -1.22843031   -1.83635082    c      6.000     0
+          5.14054685   -1.10893110    3.94621707    h      1.000     0
+          9.58045434   -1.42361375    5.33758316    h      1.000     0
+         13.04403988   -1.57018637    2.17249805    h      1.000     0
+         12.04005333   -1.45782276   -2.41754624    h      1.000     0
+          7.60605690   -1.25079587   -3.83917831    h      1.000     0
+          3.42700737   -1.00904766   -0.88504375    c      6.000     0
+          2.83597551   -0.46648528   -3.46155391    c      6.000     0
+          0.29157493   -0.29771518   -4.25193179    c      6.000     0
+         -1.66379433   -0.70764056   -2.47186956    c      6.000     0
+         -1.14256504   -1.27350705    0.09988088    c      6.000     0
+          1.41263441   -1.39969947    0.88648949    c      6.000     0
+          4.32578962    0.00042877   -4.78096022    h      1.000     0
+         -0.22208333    0.13048279   -6.18715383    h      1.000     0
+         -4.01706284   -0.53955299   -3.44435925    o      8.000     0
+         -2.63744860   -1.59538668    1.45564263    h      1.000     0
+          1.83222755   -1.99910741    2.79532948    h      1.000     0
+         -6.14659391   -0.70953178   -1.74900919    c      6.000     0
+         -7.73495322   -1.14919743   -2.98894540    h      1.000     0
+         -5.87465612   -2.29550998   -0.45245211    h      1.000     0
+         -6.57633565    1.75805958   -0.36102190    c      6.000     0
+         -8.78934647    1.55792575    1.47148240    c      6.000     0
+         -4.85339657    2.27410108    0.66088141    h      1.000     0
+         -6.93251980    3.24869608   -1.75099900    h      1.000     0
+         -9.27910863    4.04151962    2.84283259    c      6.000     0
+        -10.49103124    0.98055291    0.44280020    h      1.000     0
+         -8.40193859    0.06427248    2.85220987    h      1.000     0
+        -10.86007296    3.87955399    4.15820911    h      1.000     0
+         -7.61626963    4.62647551    3.91741320    h      1.000     0
+         -9.72222916    5.54658094    1.50104878    h      1.000     0
+ 
+       center of nuclear mass  :    0.98797585   -0.34499782   -0.39239459
+       center of nuclear charge:    0.82666416   -0.29165633   -0.33607957
+
+              +--------------------------------------------------+
+              |               basis set information              |
+              +--------------------------------------------------+
+
+              we will work with the 1s 3p 5d 7f 9g ... basis set
+              ...i.e. with spherical basis functions...
+
+   type   atoms  prim   cont   basis
+   ---------------------------------------------------------------------------
+    c       16     46     31   def2-TZVP   [5s3p2d1f|11s6p2d1f]
+    h       18      8      6   def2-TZVP   [3s1p|5s1p]
+    o        1     46     31   def2-TZVP   [5s3p2d1f|11s6p2d1f]
+   ---------------------------------------------------------------------------
+   total:   35    926    635
+   ---------------------------------------------------------------------------
+
+   total number of primitive shells          :   46
+   total number of contracted shells         :  259
+   total number of cartesian basis functions :  720
+   total number of SCF-basis functions       :  635
+
+
+
+   =========================================================================
+
+
+     restricted closed shell calculation for the wavefunction models:
+               CC2        - Approximate CC Singles and Doubles
+
+
+     global parameters for ricc2 program:
+
+        hard restart (reuse of interm.) :  enabled 
+        soft restart (reuse of vectors) :  disabled
+        threshold for vector function   :    0.100000E-05
+        convergence threshold energy    :    0.100000E-06
+        linear dependence threshold     :    0.100000E-13
+        global print level              :      1
+        maximum number of iterations    :    30
+        maximum number DIIS vectors     :    10
+        max. dim. of reduced space      :   100
+        core memory limit (MB)          :  6000
+
+
+   =========================================================================
+     "cartesian on" in $drvopt is ignored by $ricc2
+
+    der. integral neglect threshold  :  0.10E-07
+    integral neglect threshold       :  0.46E-11
+    integral storage threshold THIZE :  0.10E-04
+    integral storage threshold THIME :         5
+
+
+                  +------------------------------------------+
+                  |     Auxiliary basis set information      |
+                  +------------------------------------------+
+
+              we will work with the 1s 3p 5d 7f 9g ... basis set
+              ...i.e. with spherical basis functions...
+
+   type   atoms  prim   cont   basis
+   ---------------------------------------------------------------------------
+    c       16     72     52   def-TZVP   [7s6p4d1f|8s6p5d3f]
+    h       18     23     15   def-TZVP   [4s2p1d|4s3p2d]
+    o        1     72     52   def-TZVP   [7s6p4d1f|8s6p5d3f]
+   ---------------------------------------------------------------------------
+   total:   35   1638   1154
+   ---------------------------------------------------------------------------
+
+   total number of primitive shells          :   53
+   total number of contracted shells         :  432
+   total number of cartesian basis functions : 1291
+   total number of SCF-basis functions       : 1154
+
+
+ symmetry group of the molecule :   c1 
+
+ the group has the following generators :
+   c1(z)
+
+    1 symmetry operations found
+
+ there are 1 real representations :   a   
+
+ maximum number of shells which are related by symmetry :  1
+
+
+ The symmetry information takes   1 MB
+
+*---------------------------------------------------------------------*
+|               simplified C1 algorithm will be applied               |
+*---------------------------------------------------------------------*
+  MOs are in ASCII format !
+
+
+ reading orbital data $scfmo  from file mos . 
+
+ orbital characterization : scfconv=7
+ 
+
+         --------------------------------------------------------------
+                   checking mo's by calculating trace(D*S)
+
+              number of electrons : 
+                 from trace(D*S)         :  122.000000000002
+                 from occupation numbers :  122.000000000000
+
+              molecular charge           :    0.000000000000
+         --------------------------------------------------------------
+
+ time elapsed for calculating density matrices :   0.321 sec
+
+
+
+              +--------------------------------------------+
+              | list of orbitals that will be kept frozen: |
+              +--------------------------------------------+
+              |   irrep   index      energy     occ/vir    |
+              +--------------------------------------------+
+              |   a         1      -20.5785     occupied   |
+              |   a         2      -11.3041     occupied   |
+              |   a         3      -11.2854     occupied   |
+              |   a         4      -11.2468     occupied   |
+              |   a         5      -11.2442     occupied   |
+              |   a         6      -11.2430     occupied   |
+              |   a         7      -11.2380     occupied   |
+              |   a         8      -11.2371     occupied   |
+              |   a         9      -11.2332     occupied   |
+              |   a        10      -11.2331     occupied   |
+              |   a        11      -11.2313     occupied   |
+              |   a        12      -11.2297     occupied   |
+              |   a        13      -11.2293     occupied   |
+              |   a        14      -11.2280     occupied   |
+              |   a        15      -11.2279     occupied   |
+              |   a        16      -11.2237     occupied   |
+              |   a        17      -11.2173     occupied   |
+              +--------------------------------------------+
+
+
+
+   Molecular Orbital Statistic:
+   ============================
+
+   -----------------------------
+   orbitals in total:
+   -----------------------------
+    frozen occupied :     17
+    active occupied :     44
+    active virtual  :    574
+    frozen virtual  :      0
+    all together    :    635
+   -----------------------------
+
+
+     time in riccmos       cpu:  1.55 sec    wall:  0.45 sec    ratio:  3.4
+
+     total memory allocated for calculation of (Q|P)**(-1/2) : 16 MiB
+
+
+     calculation of (P|Q) ...
+     time in lp2sym        cpu:  0.18 sec    wall:  0.05 sec    ratio:  3.6
+
+
+     calculation of the Cholesky decomposition of (P|Q)**(-1) ...
+     time in invmetri      cpu:  0.51 sec    wall:  0.15 sec    ratio:  3.4
+
+   threshold for RMS(d[D]) in SCF was     :  0.10E-06
+   integral neglect threshold             :  0.46E-11
+   derivative integral neglect threshold  :  0.10E-07
+
+
+ setting up bound for integral derivative estimation
+
+ increment for numerical differentiation : 0.00050000
+
+   =========================================================================
+
+     Energy of reference wave function is  -691.4619735675000
+     Maximum orbital residual is           0.3439945559267E-05
+
+
+     Number of symmetry-nonredundant auxiliary basis functions:     1154
+
+     Block lengths for integral files:
+        frozen occupied (BOI):        1 MiB
+        active occupied (BJI):        1 MiB
+        active virtual  (BAI):        6 MiB
+        frozen virtual  (BGI):        0 MiB
+               general  (BTI):        6 MiB
+
+   =========================================================================
+
+
+
+  ----------------------------------------------------------------------------
+  hard_restart flag is disabled because the check sum for the
+  B(Q|ia)  "$chkbqia" differs from the reference value:
+  reference value:     52.1512720188290    
+  computed value :     52.1512718892056    
+  relative error :    0.248552618247206E-08
+  tolerance      :    0.100000000000000E-11
+  the calculation will proceed...
+  ----------------------------------------------------------------------------
+
+
+   **************************************************************************
+   *                                                                        *
+   *          OPTIMIZATION OF THE GROUND STATE CLUSTER AMPLITUDES           *
+   *                                                                        *
+   **************************************************************************
+     start CC2 from scratch because restart not enabled
+
+
+   Iter.   MP2 energy       Norm(Omega)    Norm(t1)  Norm(t2)     cpu    wall
+   ...........................................................................
+    1   -694.2439712480    0.1635875669     0.00000   0.57694    1.52    0.38
+   ...........................................................................
+     time in total         cpu:  1 min 32 s  wall:  0 min 23 s  ratio:  4.0
+
+
+              *****************************************************
+              *                                                   *
+              *   RHF  energy           :   -691.4619735675       *
+              *   correlation energy    :     -2.7819976805       *
+              *                                                   *
+              *   Final MP2 energy      :   -694.2439712480       *
+              *   D1 diagnostic         :      0.0346             *
+              *                                                   *
+              *****************************************************
+
+
+
+   Iter.   CC2 energy       Norm(Omega)    Norm(t1)  Norm(t2)     cpu    wall
+   ...........................................................................
+    1   -694.2685514925    0.0328285778     0.09298   0.58330    1.71    0.43
+    2   -694.2754459353    0.0046945211     0.12460   0.58536    1.71    0.43
+    3   -694.2761816341    0.0011266308     0.13042   0.58563    1.71    0.43
+    4   -694.2761523345    0.0002329576     0.13102   0.58564    1.73    0.43
+    5   -694.2761615468    0.0000530224     0.13113   0.58564    1.71    0.43
+    6   -694.2761616949    0.0000139222     0.13112   0.58564    1.71    0.43
+    7   -694.2761617943    0.0000031919     0.13112   0.58564    1.72    0.43
+    8   -694.2761617432    0.0000007494     0.13112   0.58564    1.73    0.43
+   ...........................................................................
+   CC equations converged in  8 iterations.
+
+   last energy change         :  0.51E-07
+   convergence threshold      :  0.10E-06
+   norm of the vector function:  0.75E-06
+   convergence threshold      :  0.10E-05
+
+     time in total         cpu: 13 min 45 s  wall:  3 min 27 s  ratio:  4.0
+
+
+     **********************************************************************
+     *                                                                    *
+     *   RHF  energy                             :   -691.4619735675      *
+     *   correlation energy                      :     -2.8141881757      *
+     *                                                                    *
+     *   Final CC2 energy                        :   -694.2761617432      *
+     *                                                                    *
+     *   D1 diagnostic                           :      0.0596            *
+     *                                                                    *
+     **********************************************************************
+
+
+
+ **************************************************************
+ *                                                            *
+ *    OPTIMIZATION OF THE EXCITED STATE CLUSTER AMPLITUDES    *
+ *                                                            *
+ **************************************************************
+
+
+  preoptimize excitation energies/vectors using CCS:
+  ==================================================
+
+
+ ======== LINEAR CC RESPONSE SOLVER ========
+
+    threshold for convergence: 0.10E-02
+    maximum number of simultaneous jacoby matrix transformations:  1
+                                                
+     summary of start vectors generation:
+     -------------------------------------------
+     type of solution vectors      : RE0
+     symmetry                      : a  
+     number of vectors requested   :     1
+     number of vectors generated   :     1
+     -------------------------------------------
+                                                
+
+    Iter  #Vectors  time (min)    max. residual 
+    --------------------------------------------
+      1       1         0.07     0.10E+00  (  1)
+      2       1         0.07     0.45E-01  (  1)
+      3       1         0.07     0.29E-01  (  1)
+      4       1         0.07     0.15E-01  (  1)
+      5       1         0.07     0.39E-02  (  1)
+      6       1         0.07     0.14E-02  (  1)
+      7       1         0.07     0.84E-03  (  1)
+    --------------------------------------------
+    converged in  7 iterations
+
+         Total time          0.50 minutes
+
+
+ ===========================================
+
+
+
+
+ Note that this is the intermediate result of a preoptimization!
+ The convergence threshold was  0.1E-02 only!
+
+
+ +==================================================================+
+ | sym | multi | state |          CCS excitation energies           |
+ |     |       |       +--------------------------------------------+
+ |     |       |       |   Hartree    |     eV       |     cm-1     |
+ +==================================================================+
+ | a   |   3   |   1   |    0.0941176 |      2.56107 |    20656.428 |
+ +==================================================================+
+
+
+
+
+  preoptimize CC2 excitation energies/vectors using a quasi linear algorithm:
+  ===========================================================================
+
+
+ ======== LINEAR CC RESPONSE SOLVER ========
+
+    threshold for convergence: 0.10E-02
+    maximum number of simultaneous jacoby matrix transformations:  1
+                                                
+     summary of start vectors generation:
+     -------------------------------------------
+     type of solution vectors      : RE0
+     symmetry                      : a  
+     number of vectors requested   :     1
+     number of vectors generated   :     1
+     -------------------------------------------
+                                                
+
+    Iter  #Vectors  time (min)    max. residual 
+    --------------------------------------------
+ threshold for this macro iteration:  3.328860400730856E-002
+      1       1         0.66     0.48E-01  (  1)
+      2       1         0.66     0.23E-01  (  1)
+                                                
+     summary of start vectors generation:
+     -------------------------------------------
+     type of solution vectors      : RE0
+     symmetry                      : a  
+     number of vectors requested   :     1
+     number of vectors generated   :     1
+     -------------------------------------------
+                                                
+
+    Iter  #Vectors  time (min)    max. residual 
+    --------------------------------------------
+ threshold for this macro iteration:  1.314065194407979E-003
+      3       1         0.66     0.23E-01  (  1)
+ ...adapted threshold to:  2.655115991708701E-003
+      4       1         0.66     0.19E-01  (  1)
+ ...adapted threshold to:  3.274585066599014E-003
+      5       1         0.66     0.81E-02  (  1)
+ ...adapted threshold to:  3.327550953758959E-003
+      6       1         0.66     0.26E-02  (  1)
+                                                
+     summary of start vectors generation:
+     -------------------------------------------
+     type of solution vectors      : RE0
+     symmetry                      : a  
+     number of vectors requested   :     1
+     number of vectors generated   :     1
+     -------------------------------------------
+                                                
+
+    Iter  #Vectors  time (min)    max. residual 
+    --------------------------------------------
+ threshold for this macro iteration:  1.000000000000000E-003
+      7       1         0.67     0.77E-03  (  1)
+    --------------------------------------------
+    converged in  7 iterations
+
+         Total time          4.60 minutes
+
+
+ ===========================================
+
+
+
+
+ Note that this is the intermediate result of a preoptimization!
+ The convergence threshold was  0.1E-02 only!
+
+
+ +==================================================================+
+ | sym | multi | state |          CC2 excitation energies           |
+ |     |       |       +--------------------------------------------+
+ |     |       |       |   Hartree    |     eV       |     cm-1     |
+ +==================================================================+
+ | a   |   3   |   1   |    0.1170278 |      3.18449 |    25684.631 |
+ +==================================================================+
+
+
+
+
+
+  solve for CC2 excitation energies/vectors using a DIIS algorithm:
+  =================================================================
+                                                
+     summary of start vectors generation:
+     -------------------------------------------
+     type of solution vectors      : RE0
+     symmetry                      : a  
+     number of vectors requested   :     1
+     number of vectors generated   :     1
+     -------------------------------------------
+                                                
+
+
+ ========= DIIS CC RESPONSE SOLVER =========
+
+    threshold for convergence:0.10E-05
+    max. nb. of DIIS vectors :      10
+    maximum number of simultaneous jacoby matrix transformations:  1
+
+    Iter  #Vectors  time (min)   residual
+    --------------------------------------
+      1       1         0.66     0.34E-03  (  1)    0.20E-30
+      2       1         0.66     0.23E-03  (  1)    0.00E+00
+      3       1         0.66     0.11E-03  (  1)    0.49E-31
+      4       1         0.66     0.78E-04  (  1)    0.00E+00
+      5       1         0.66     0.27E-04  (  1)    0.49E-31
+      6       1         0.66     0.16E-04  (  1)    0.00E+00
+      7       1         0.66     0.76E-05  (  1)    0.49E-31
+      8       1         0.66     0.39E-05  (  1)    0.12E-31
+      9       1         0.66     0.18E-05  (  1)    0.00E+00
+     10       1         0.66     0.11E-05  (  1)    0.12E-31
+     11       1         0.66     0.57E-06  (  1)    0.20E-30
+    --------------------------------------
+    converged in  11 iterations
+
+   Total time          7.25 minutes
+
+
+ ===========================================
+
+
+
+
+
+ +================================================================================+
+ | sym | multi | state |          CC2 excitation energies       |  %t1   |  %t2   |
+ |     |       |       +----------------------------------------+--------+--------+
+ |     |       |       |   Hartree    |    eV      |    cm-1    |    %   |    %   |
+ +================================================================================+
+ | a   |   3   |   1   |    0.1170054 |    3.18388 |  25679.720 |  92.66 |   7.34 |
+ +================================================================================+
+
+
+       Energy:     0.1170054 H      3.18388 eV    25679.720 cm-1
+
+     +=======================================================================+
+     | type: RE0                    symmetry: a               state:    1    |
+     +-----------------------+-----------------------+-----------------------+
+     | occ. orb.  index spin | vir. orb.  index spin |  coeff/|amp|     %    |
+     +=======================+=======================+=======================+
+     |   61 a       61       |   62 a       62       |   0.92757      86.0   |
+     |   60 a       60       |   63 a       63       |  -0.14922       2.2   |
+     |   58 a       58       |   71 a       71       |   0.14498       2.1   |
+     |   59 a       59       |   65 a       65       |   0.12463       1.6   |
+     |   58 a       58       |   72 a       72       |   0.10074       1.0   |
+     |   59 a       59       |   63 a       63       |   0.08562       0.7   |
+     |   58 a       58       |   70 a       70       |  -0.06868       0.5   |
+     |   61 a       61       |   71 a       71       |  -0.06583       0.4   |
+     |   61 a       61       |   72 a       72       |  -0.05081       0.3   |
+     |   60 a       60       |   65 a       65       |   0.05069       0.3   |
+     +=======================+=======================+=======================+
+     norm of printed elements:  0.95089
+
+
+
+      The semi-canonical algorithm will be used for densities
+
+
+    ------------------------------------------------------------------------
+         total  cpu-time :  1 hours  4 minutes and 46 seconds
+         total wall-time : 16 minutes and 18 seconds
+    ------------------------------------------------------------------------
+
+
+   ****  ricc2 : all done  ****
+
+
+    2017-10-09 12:16:49.177 
+

@@ -1,0 +1,2530 @@
+ hostname is         dn52
+ this is node-proc. number 0 running on node dn52
+ the total number of node-proc. spawned is   1
+
+   OpenMP run-time library returned nthreads =  2
+
+ ricc2 (dn52) : TURBOMOLE V7.0( 19819 ) 16 Jun 2015 at 16:30:15
+ Copyright (C) 2015 TURBOMOLE GmbH, Karlsruhe
+
+
+    2017-01-11 17:00:41.197 
+
+
+
+                              R I C C 2 - PROGRAM
+
+                          the quantum chemistry groups
+                             at the universities in
+                           Karlsruhe, Bochum & Mainz
+                                   Germany
+
+
+
+   *-----------------------------------------------------------------------*
+   |                     program will use  2 thread(s)                     |
+   *-----------------------------------------------------------------------*
+
+
+              +--------------------------------------------------+
+              | Atomic coordinate, charge and isotop information |
+              +--------------------------------------------------+
+
+                    atomic coordinates            atom    charge  isotop
+          3.05763073   -0.19613451    0.61818801    c      6.000     0
+          3.77798034    0.60086883    3.04208643    c      6.000     0
+          6.26751613    0.34054904    3.86139344    c      6.000     0
+          8.08543097   -0.71775523    2.27085385    c      6.000     0
+          7.39215093   -1.51427310   -0.14564648    c      6.000     0
+          4.90184129   -1.25726297   -0.96371988    c      6.000     0
+          2.38463122    1.47985604    4.26514496    h      1.000     0
+          6.79287342    0.98259426    5.73652787    h      1.000     0
+         10.02323760   -0.91799610    2.90740659    h      1.000     0
+          8.78900927   -2.35392207   -1.38984783    h      1.000     0
+          4.36154875   -1.93299578   -2.82415601    h      1.000     0
+          0.42656409    0.07248364   -0.24642274    c      6.000     0
+         -0.12756919    0.81090546   -2.73661256    c      6.000     0
+         -2.60440451    1.06661300   -3.55712220    c      6.000     0
+         -4.61246057    0.58158115   -1.90217829    c      6.000     0
+         -4.10486955   -0.15934116    0.58354725    c      6.000     0
+         -1.60074772   -0.40140034    1.38135920    c      6.000     0
+          1.40821294    1.24322340   -4.02672047    h      1.000     0
+         -3.03556197    1.66013648   -5.47143254    h      1.000     0
+         -6.97413768    0.88406583   -2.89137943    o      8.000     0
+         -5.61482611   -0.56884803    1.90151444    h      1.000     0
+         -1.22644966   -1.03003248    3.29875886    h      1.000     0
+         -9.03219400    0.41461723   -1.22393120    c      6.000     0
+        -10.73172997    0.75938567   -2.32700913    h      1.000     0
+         -9.02037074   -1.54247915   -0.55848002    h      1.000     0
+         -8.98330603    1.69556091    0.39787788    h      1.000     0
+ 
+       center of nuclear mass  :    0.13884538    0.05052232   -0.17663400
+       center of nuclear charge:    0.10525899    0.04485424   -0.15643553
+
+              +--------------------------------------------------+
+              |               basis set information              |
+              +--------------------------------------------------+
+
+              we will work with the 1s 3p 5d 7f 9g ... basis set
+              ...i.e. with spherical basis functions...
+
+   type   atoms  prim   cont   basis
+   ---------------------------------------------------------------------------
+    c       13     46     31   def2-TZVP   [5s3p2d1f|11s6p2d1f]
+    h       12      8      6   def2-TZVP   [3s1p|5s1p]
+    o        1     46     31   def2-TZVP   [5s3p2d1f|11s6p2d1f]
+   ---------------------------------------------------------------------------
+   total:   26    740    506
+   ---------------------------------------------------------------------------
+
+   total number of primitive shells          :   46
+   total number of contracted shells         :  202
+   total number of cartesian basis functions :  576
+   total number of SCF-basis functions       :  506
+
+
+
+   =========================================================================
+
+
+     restricted closed shell calculation for the wavefunction models:
+               CC2        - Approximate CC Singles and Doubles
+
+
+     global parameters for ricc2 program:
+
+        hard restart (reuse of interm.) :  enabled 
+        soft restart (reuse of vectors) :  disabled
+        threshold for vector function   :    0.100000E-05
+        convergence threshold energy    :    0.100000E-06
+        linear dependence threshold     :    0.100000E-13
+        global print level              :      1
+        maximum number of iterations    :    30
+        maximum number DIIS vectors     :    10
+        max. dim. of reduced space      :   100
+        core memory limit (MB)          :   500
+
+
+   =========================================================================
+     "cartesian on" in $drvopt is ignored by $ricc2
+
+    der. integral neglect threshold  :  0.10E-07
+    integral neglect threshold       :  0.58E-11
+    integral storage threshold THIZE :  0.10E-04
+    integral storage threshold THIME :         5
+
+
+                  +------------------------------------------+
+                  |     Auxiliary basis set information      |
+                  +------------------------------------------+
+
+              we will work with the 1s 3p 5d 7f 9g ... basis set
+              ...i.e. with spherical basis functions...
+
+   type   atoms  prim   cont   basis
+   ---------------------------------------------------------------------------
+    c       13     81     76   def2-TZVP   [8s6p4d3f1g|8s6p5d3f1g]
+    h       12     23     15   def2-TZVP   [4s2p1d|4s3p2d]
+    o        1     81     76   def2-TZVP   [8s6p4d3f1g|8s6p5d3f1g]
+   ---------------------------------------------------------------------------
+   total:   26   1410   1244
+   ---------------------------------------------------------------------------
+
+   total number of primitive shells          :   55
+   total number of contracted shells         :  392
+   total number of cartesian basis functions : 1522
+   total number of SCF-basis functions       : 1244
+
+
+ symmetry group of the molecule :   c1 
+
+ the group has the following generators :
+   c1(z)
+
+    1 symmetry operations found
+
+ there are 1 real representations :   a   
+
+ maximum number of shells which are related by symmetry :  1
+
+
+ The symmetry information takes   1 MB
+
+*---------------------------------------------------------------------*
+|               simplified C1 algorithm will be applied               |
+*---------------------------------------------------------------------*
+  MOs are in ASCII format !
+
+
+ reading orbital data $scfmo  from file mos . 
+
+ orbital characterization : scfconv=7
+ 
+
+         --------------------------------------------------------------
+                   checking mo's by calculating trace(D*S)
+
+              number of electrons : 
+                 from trace(D*S)         :   98.000000000007
+                 from occupation numbers :   98.000000000000
+
+              molecular charge           :    0.000000000000
+         --------------------------------------------------------------
+
+ time elapsed for calculating density matrices :   0.174 sec
+
+
+
+              +--------------------------------------------+
+              | list of orbitals that will be kept frozen: |
+              +--------------------------------------------+
+              |   irrep   index      energy     occ/vir    |
+              +--------------------------------------------+
+              |   a         1      -20.5847     occupied   |
+              |   a         2      -11.2997     occupied   |
+              |   a         3      -11.2845     occupied   |
+              |   a         4      -11.2422     occupied   |
+              |   a         5      -11.2393     occupied   |
+              |   a         6      -11.2380     occupied   |
+              |   a         7      -11.2348     occupied   |
+              |   a         8      -11.2338     occupied   |
+              |   a         9      -11.2336     occupied   |
+              |   a        10      -11.2321     occupied   |
+              |   a        11      -11.2307     occupied   |
+              |   a        12      -11.2305     occupied   |
+              |   a        13      -11.2303     occupied   |
+              |   a        14      -11.2275     occupied   |
+              +--------------------------------------------+
+
+
+  ----------------------------------------------------------------------------
+  hard_restart flag is disabled because the check sum for the
+  molecular orbitals "$chkmos" differs from the reference value:
+  reference value:     407942.450157948    
+  computed value :     407942.450159228    
+  relative error :    0.313695087306336E-11
+  tolerance      :    0.100000000000000E-11
+  the calculation will proceed...
+  ----------------------------------------------------------------------------
+
+
+   Molecular Orbital Statistic:
+   ============================
+
+   -----------------------------
+   orbitals in total:
+   -----------------------------
+    frozen occupied :     14
+    active occupied :     35
+    active virtual  :    457
+    frozen virtual  :      0
+    all together    :    506
+   -----------------------------
+
+
+     time in riccmos       cpu:  0.73 sec    wall:  0.54 sec    ratio:  1.3
+
+     total memory allocated for calculation of (Q|P)**(-1/2) : 18 MiB
+
+
+     calculation of (P|Q) ...
+     time in lp2sym        cpu:  0.13 sec    wall:  0.06 sec    ratio:  2.0
+
+
+     calculation of the Cholesky decomposition of (P|Q)**(-1) ...
+     time in invmetri      cpu:  0.71 sec    wall:  0.94 sec    ratio:  0.8
+
+   threshold for RMS(d[D]) in SCF was     :  0.10E-06
+   integral neglect threshold             :  0.58E-11
+   derivative integral neglect threshold  :  0.10E-07
+
+
+ setting up bound for integral derivative estimation
+
+ increment for numerical differentiation : 0.00050000
+
+   =========================================================================
+
+     Energy of reference wave function is  -574.3332536036000
+     Maximum orbital residual is           0.4017608682073E-05
+
+
+     Number of symmetry-nonredundant auxiliary basis functions:     1244
+
+     Block lengths for integral files:
+        frozen occupied (BOI):        1 MiB
+        active occupied (BJI):        1 MiB
+        active virtual  (BAI):        5 MiB
+        frozen virtual  (BGI):        0 MiB
+               general  (BTI):        5 MiB
+
+   =========================================================================
+
+
+
+
+   **************************************************************************
+   *                                                                        *
+   *          OPTIMIZATION OF THE GROUND STATE CLUSTER AMPLITUDES           *
+   *                                                                        *
+   **************************************************************************
+     start CC2 from scratch because restart not enabled
+
+
+   Iter.   MP2 energy       Norm(Omega)    Norm(t1)  Norm(t2)     cpu    wall
+   ...........................................................................
+    1   -576.5927676191    0.1479925757     0.00000   0.51912    2.38    1.19
+   ...........................................................................
+     time in total         cpu:  2 min 23 s  wall:  1 min 12 s  ratio:  2.0
+
+
+              *****************************************************
+              *                                                   *
+              *   RHF  energy           :   -574.3332536036       *
+              *   correlation energy    :     -2.2595140155       *
+              *                                                   *
+              *   Final MP2 energy      :   -576.5927676191       *
+              *   D1 diagnostic         :      0.0314             *
+              *                                                   *
+              *****************************************************
+
+
+
+   Iter.   CC2 energy       Norm(Omega)    Norm(t1)  Norm(t2)     cpu    wall
+   ...........................................................................
+    1   -576.6125767826    0.0293348810     0.08283   0.52482    2.68    1.34
+    2   -576.6180184751    0.0041850394     0.11033   0.52664    2.68    1.34
+    3   -576.6185957446    0.0009784960     0.11535   0.52688    2.68    1.34
+    4   -576.6185735167    0.0001913424     0.11583   0.52688    2.66    1.33
+    5   -576.6185805158    0.0000409915     0.11592   0.52688    2.68    1.34
+    6   -576.6185805738    0.0000099794     0.11591   0.52688    2.69    1.35
+    7   -576.6185806382    0.0000021049     0.11591   0.52688    2.68    1.34
+    8   -576.6185805933    0.0000004497     0.11591   0.52688    2.69    1.35
+   ...........................................................................
+   CC equations converged in  8 iterations.
+
+   last energy change         :  0.45E-07
+   convergence threshold      :  0.10E-06
+   norm of the vector function:  0.45E-06
+   convergence threshold      :  0.10E-05
+
+     time in total         cpu: 21 min 28 s  wall: 10 min 44 s  ratio:  2.0
+
+
+     **********************************************************************
+     *                                                                    *
+     *   RHF  energy                             :   -574.3332536036      *
+     *   correlation energy                      :     -2.2853269897      *
+     *                                                                    *
+     *   Final CC2 energy                        :   -576.6185805933      *
+     *                                                                    *
+     *   D1 diagnostic                           :      0.0540            *
+     *                                                                    *
+     **********************************************************************
+
+
+
+ **************************************************************
+ *                                                            *
+ *    OPTIMIZATION OF THE EXCITED STATE CLUSTER AMPLITUDES    *
+ *                                                            *
+ **************************************************************
+
+
+  preoptimize excitation energies/vectors using CCS:
+  ==================================================
+
+
+ ======== LINEAR CC RESPONSE SOLVER ========
+
+    threshold for convergence: 0.10E-02
+    maximum number of simultaneous jacoby matrix transformations:  5
+                                                
+     summary of start vectors generation:
+     -------------------------------------------
+     type of solution vectors      : RE0
+     symmetry                      : a  
+     number of vectors requested   :     5
+     number of vectors generated   :     5
+       -- guessed as rhs/(e_a-e_i) :     5
+     -------------------------------------------
+                                                
+
+    Iter  #Vectors  time (min)    max. residual 
+    --------------------------------------------
+      1       5         0.51     0.15E+00  (  4)
+      2       5         0.51     0.60E-01  (  3)
+      3       5         0.52     0.26E-01  (  1)
+      4       5         0.50     0.24E-01  (  5)
+      5       5         0.50     0.68E-01  (  5)
+      6       5         0.51     0.96E-01  (  4)
+      7       4         0.43     0.47E-01  (  4)
+      8       2         0.28     0.16E-01  (  4)
+      9       2         0.28     0.71E-02  (  4)
+     10       2         0.28     0.24E-02  (  4)
+     11       2         0.28     0.92E-03  (  4)
+    --------------------------------------------
+    converged in 11 iterations
+
+         Total time          4.60 minutes
+
+
+ ===========================================
+
+
+
+
+ Note that this is the intermediate result of a preoptimization!
+ The convergence threshold was  0.1E-02 only!
+
+
+ +==================================================================+
+ | sym | multi | state |          CCS excitation energies           |
+ |     |       |       +--------------------------------------------+
+ |     |       |       |   Hartree    |     eV       |     cm-1     |
+ +==================================================================+
+ | a   |   1   |   1   |    0.2003790 |      5.45259 |    43978.116 |
+ | a   |   1   |   2   |    0.2079134 |      5.65761 |    45631.717 |
+ | a   |   1   |   3   |    0.2138689 |      5.81967 |    46938.799 |
+ | a   |   1   |   4   |    0.2325246 |      6.32732 |    51033.247 |
+ | a   |   1   |   5   |    0.2660018 |      7.23828 |    58380.638 |
+ +==================================================================+
+
+
+
+
+  preoptimize CC2 excitation energies/vectors using a quasi linear algorithm:
+  ===========================================================================
+
+
+ ======== LINEAR CC RESPONSE SOLVER ========
+
+    threshold for convergence: 0.10E-02
+    maximum number of simultaneous jacoby matrix transformations:  5
+                                                
+     summary of start vectors generation:
+     -------------------------------------------
+     type of solution vectors      : RE0
+     symmetry                      : a  
+     number of vectors requested   :     5
+     number of vectors generated   :     5
+       -- restarted from file      :     5
+     -------------------------------------------
+                                                
+
+    Iter  #Vectors  time (min)    max. residual 
+    --------------------------------------------
+ threshold for this macro iteration:  2.365364261961642E-002
+      1       5         8.00     0.67E-01  (  1)
+ ...adapted threshold to:  3.001355597087224E-002
+      2       5         8.04     0.28E-01  (  3)
+                                                
+     summary of start vectors generation:
+     -------------------------------------------
+     type of solution vectors      : RE0
+     symmetry                      : a  
+     number of vectors requested   :     5
+     number of vectors generated   :     5
+       -- restarted from file      :     5
+     -------------------------------------------
+                                                
+
+    Iter  #Vectors  time (min)    max. residual 
+    --------------------------------------------
+ threshold for this macro iteration:  4.260080222566742E-003
+      3       5         8.04     0.28E-01  (  3)
+      4       5         8.04     0.21E-01  (  4)
+      5       5         8.03     0.32E-01  (  5)
+ ...adapted threshold to:  7.750321512282665E-003
+      6       3         5.01     0.41E-01  (  5)
+ ...adapted threshold to:  1.116207772398753E-002
+      7       2         3.48     0.23E-01  (  5)
+ ...adapted threshold to:  1.355590029741566E-002
+      8       2         3.47     0.24E-01  (  5)
+ ...adapted threshold to:  1.472157051911607E-002
+      9       2         3.47     0.25E-01  (  4)
+ ...adapted threshold to:  1.505102030905309E-002
+     10       1         2.01     0.17E-01  (  4)
+ ...adapted threshold to:  1.523849972954716E-002
+     11       1         2.01     0.13E-01  (  4)
+                                                
+     summary of start vectors generation:
+     -------------------------------------------
+     type of solution vectors      : RE0
+     symmetry                      : a  
+     number of vectors requested   :     5
+     number of vectors generated   :     5
+       -- restarted from file      :     5
+     -------------------------------------------
+                                                
+
+    Iter  #Vectors  time (min)    max. residual 
+    --------------------------------------------
+ threshold for this macro iteration:  1.000000000000000E-003
+     12       5         8.02     0.13E-01  (  4)
+     13       2         3.48     0.14E-01  (  4)
+     14       2         3.48     0.10E-01  (  4)
+     15       2         3.48     0.72E-02  (  4)
+     16       2         3.47     0.45E-02  (  4)
+     17       2         3.48     0.30E-02  (  4)
+     18       2         3.47     0.17E-02  (  4)
+     19       2         3.47     0.13E-02  (  5)
+     20       2         3.46     0.80E-03  (  1)
+    --------------------------------------------
+    converged in 20 iterations
+
+         Total time         95.40 minutes
+
+
+ ===========================================
+
+
+
+
+ Note that this is the intermediate result of a preoptimization!
+ The convergence threshold was  0.1E-02 only!
+
+
+ +==================================================================+
+ | sym | multi | state |          CC2 excitation energies           |
+ |     |       |       +--------------------------------------------+
+ |     |       |       |   Hartree    |     eV       |     cm-1     |
+ +==================================================================+
+ | a   |   1   |   1   |    0.1733885 |      4.71814 |    38054.378 |
+ | a   |   1   |   2   |    0.1822449 |      4.95914 |    39998.137 |
+ | a   |   1   |   3   |    0.1882596 |      5.12280 |    41318.204 |
+ | a   |   1   |   4   |    0.2264909 |      6.16313 |    49709.015 |
+ | a   |   1   |   5   |    0.2325712 |      6.32859 |    51043.486 |
+ +==================================================================+
+
+
+
+
+
+  solve for CC2 excitation energies/vectors using a DIIS algorithm:
+  =================================================================
+                                                
+     summary of start vectors generation:
+     -------------------------------------------
+     type of solution vectors      : RE0
+     symmetry                      : a  
+     number of vectors requested   :     5
+     number of vectors generated   :     5
+       -- restarted from file      :     5
+     -------------------------------------------
+                                                
+
+
+ ========= DIIS CC RESPONSE SOLVER =========
+
+    threshold for convergence:0.10E-05
+    max. nb. of DIIS vectors :      10
+    maximum number of simultaneous jacoby matrix transformations:  5
+
+    Iter  #Vectors  time (min)   residual
+    --------------------------------------
+      1       5         8.01     0.32E-03  (  1)    0.79E-03
+      2       5         8.03     0.21E-03  (  1)    0.71E-04
+      3       5         8.02     0.89E-04  (  5)    0.24E-03
+      4       5         8.01     0.66E-04  (  5)    0.99E-04
+      5       5         7.88     0.46E-04  (  5)    0.13E-03
+      6       5         7.82     0.34E-04  (  5)    0.74E-04
+      7       5         7.82     0.28E-04  (  5)    0.85E-04
+      8       2         3.39     0.22E-04  (  5)    0.77E-04
+      9       2         3.38     0.19E-04  (  5)    0.76E-04
+     10       2         3.39     0.14E-04  (  5)    0.75E-04
+     11       2         3.39     0.98E-05  (  5)    0.74E-04
+     12       2         3.38     0.60E-05  (  5)    0.75E-04
+     13       2         3.38     0.36E-05  (  5)    0.76E-04
+     14       1         1.96     0.22E-05  (  5)    0.77E-04
+     15       1         1.96     0.16E-05  (  5)    0.76E-04
+     16       1         1.96     0.14E-05  (  5)    0.77E-04
+     17       1         1.95     0.11E-05  (  5)    0.76E-04
+     18       1         1.95     0.83E-06  (  5)    0.77E-04
+    --------------------------------------
+    converged in  18 iterations
+
+   Total time         85.69 minutes
+
+
+ ===========================================
+
+
+
+
+
+ +================================================================================+
+ | sym | multi | state |          CC2 excitation energies       |  %t1   |  %t2   |
+ |     |       |       +----------------------------------------+--------+--------+
+ |     |       |       |   Hartree    |    eV      |    cm-1    |    %   |    %   |
+ +================================================================================+
+ | a   |   1   |   1   |    0.1734298 |    4.71926 |  38063.436 |  89.26 |  10.74 |
+ | a   |   1   |   2   |    0.1822881 |    4.96031 |  40007.621 |  89.30 |  10.70 |
+ | a   |   1   |   3   |    0.1882639 |    5.12292 |  41319.144 |  89.48 |  10.52 |
+ | a   |   1   |   4   |    0.2265607 |    6.16503 |  49724.318 |  88.10 |  11.90 |
+ | a   |   1   |   5   |    0.2325840 |    6.32893 |  51046.286 |  90.61 |   9.39 |
+ +================================================================================+
+
+
+       Energy:     0.1734298 H      4.71926 eV    38063.436 cm-1
+
+     +=======================================================================+
+     | type: RE0                    symmetry: a               state:    1    |
+     +-----------------------+-----------------------+-----------------------+
+     | occ. orb.  index spin | vir. orb.  index spin |  coeff/|amp|     %    |
+     +=======================+=======================+=======================+
+     |   49 a       49       |   51 a       51       |  -0.78359      61.4   |
+     |   47 a       47       |   50 a       50       |   0.36063      13.0   |
+     |   46 a       46       |   51 a       51       |   0.23128       5.3   |
+     |   49 a       49       |   52 a       52       |   0.20672       4.3   |
+     |   47 a       47       |   55 a       55       |   0.17904       3.2   |
+     |   47 a       47       |   57 a       57       |   0.15195       2.3   |
+     |   46 a       46       |   52 a       52       |  -0.14826       2.2   |
+     |   49 a       49       |   50 a       50       |   0.14413       2.1   |
+     |   46 a       46       |   50 a       50       |  -0.09335       0.9   |
+     |   49 a       49       |   65 a       65       |   0.06757       0.5   |
+     +=======================+=======================+=======================+
+     norm of printed elements:  0.95147
+
+
+       Energy:     0.1822881 H      4.96031 eV    40007.621 cm-1
+
+     +=======================================================================+
+     | type: RE0                    symmetry: a               state:    2    |
+     +-----------------------+-----------------------+-----------------------+
+     | occ. orb.  index spin | vir. orb.  index spin |  coeff/|amp|     %    |
+     +=======================+=======================+=======================+
+     |   49 a       49       |   52 a       52       |   0.67042      44.9   |
+     |   48 a       48       |   50 a       50       |   0.57068      32.6   |
+     |   46 a       46       |   52 a       52       |   0.25629       6.6   |
+     |   49 a       49       |   51 a       51       |   0.18461       3.4   |
+     |   46 a       46       |   51 a       51       |   0.16766       2.8   |
+     |   48 a       48       |   55 a       55       |  -0.16696       2.8   |
+     |   48 a       48       |   57 a       57       |  -0.14024       2.0   |
+     +=======================+=======================+=======================+
+     norm of printed elements:  0.95055
+
+
+       Energy:     0.1882639 H      5.12292 eV    41319.144 cm-1
+
+     +=======================================================================+
+     | type: RE0                    symmetry: a               state:    3    |
+     +-----------------------+-----------------------+-----------------------+
+     | occ. orb.  index spin | vir. orb.  index spin |  coeff/|amp|     %    |
+     +=======================+=======================+=======================+
+     |   49 a       49       |   50 a       50       |   0.94254      88.8   |
+     |   49 a       49       |   51 a       51       |   0.13448       1.8   |
+     |   46 a       46       |   50 a       50       |  -0.11969       1.4   |
+     |   47 a       47       |   51 a       51       |   0.09908       1.0   |
+     |   47 a       47       |   50 a       50       |  -0.07186       0.5   |
+     |   41 a       41       |   50 a       50       |  -0.06445       0.4   |
+     |   45 a       45       |   50 a       50       |  -0.06117       0.4   |
+     |   46 a       46       |   55 a       55       |  -0.05952       0.4   |
+     |   48 a       48       |   52 a       52       |  -0.05903       0.3   |
+     +=======================+=======================+=======================+
+     norm of printed elements:  0.95070
+
+
+       Energy:     0.2265607 H      6.16503 eV    49724.318 cm-1
+
+     +=======================================================================+
+     | type: RE0                    symmetry: a               state:    4    |
+     +-----------------------+-----------------------+-----------------------+
+     | occ. orb.  index spin | vir. orb.  index spin |  coeff/|amp|     %    |
+     +=======================+=======================+=======================+
+     |   48 a       48       |   50 a       50       |  -0.56274      31.7   |
+     |   49 a       49       |   52 a       52       |   0.56006      31.4   |
+     |   49 a       49       |   51 a       51       |   0.34654      12.0   |
+     |   46 a       46       |   52 a       52       |  -0.32144      10.3   |
+     |   47 a       47       |   50 a       50       |   0.25801       6.7   |
+     |   46 a       46       |   51 a       51       |  -0.12281       1.5   |
+     |   48 a       48       |   55 a       55       |   0.09156       0.8   |
+     |   48 a       48       |   57 a       57       |   0.06964       0.5   |
+     |   47 a       47       |   52 a       52       |  -0.06236       0.4   |
+     +=======================+=======================+=======================+
+     norm of printed elements:  0.95253
+
+
+       Energy:     0.2325840 H      6.32893 eV    51046.286 cm-1
+
+     +=======================================================================+
+     | type: RE0                    symmetry: a               state:    5    |
+     +-----------------------+-----------------------+-----------------------+
+     | occ. orb.  index spin | vir. orb.  index spin |  coeff/|amp|     %    |
+     +=======================+=======================+=======================+
+     |   46 a       46       |   50 a       50       |   0.49546      24.5   |
+     |   47 a       47       |   50 a       50       |   0.47359      22.4   |
+     |   48 a       48       |   52 a       52       |  -0.32272      10.4   |
+     |   49 a       49       |   55 a       55       |  -0.29865       8.9   |
+     |   47 a       47       |   51 a       51       |  -0.23920       5.7   |
+     |   49 a       49       |   57 a       57       |  -0.22781       5.2   |
+     |   49 a       49       |   52 a       52       |  -0.19815       3.9   |
+     |   48 a       48       |   51 a       51       |  -0.17375       3.0   |
+     |   47 a       47       |   52 a       52       |   0.13664       1.9   |
+     |   49 a       49       |   50 a       50       |   0.13182       1.7   |
+     |   49 a       49       |   51 a       51       |   0.12461       1.6   |
+     |   45 a       45       |   50 a       50       |   0.12460       1.6   |
+     |   48 a       48       |   50 a       50       |   0.11358       1.3   |
+     |   46 a       46       |   51 a       51       |   0.08411       0.7   |
+     |   45 a       45       |   51 a       51       |  -0.07492       0.6   |
+     |   46 a       46       |   52 a       52       |   0.06987       0.5   |
+     |   45 a       45       |   55 a       55       |   0.06374       0.4   |
+     |   45 a       45       |   57 a       57       |   0.05370       0.3   |
+     |   47 a       47       |   55 a       55       |   0.05169       0.3   |
+     |   44 a       44       |   50 a       50       |   0.04726       0.2   |
+     +=======================+=======================+=======================+
+     norm of printed elements:  0.95109
+
+
+
+
+
+  solve for left     eigenvectors needed for transition properties.
+  -----------------------------------------------------------------
+                                                
+     summary of start vectors generation:
+     -------------------------------------------
+     type of solution vectors      : LE0
+     symmetry                      : a  
+     number of vectors requested   :     5
+     number of vectors generated   :     5
+       -- restarted from file      :     5
+     -------------------------------------------
+                                                
+
+
+ ========= DIIS CC RESPONSE SOLVER =========
+
+    threshold for convergence:0.10E-05
+    max. nb. of DIIS vectors :      10
+    maximum number of simultaneous jacoby matrix transformations:  5
+
+    Iter  #Vectors  time (min)   residual
+    --------------------------------------
+      1       5         7.90     0.18E-01  (  4)    0.76E-04
+      2       5         7.89     0.24E-02  (  3)    0.44E-03
+      3       5         7.89     0.96E-03  (  5)    0.37E-03
+      4       5         7.88     0.39E-03  (  5)    0.36E-03
+      5       5         7.89     0.25E-03  (  5)    0.36E-03
+      6       5         7.89     0.17E-03  (  5)    0.36E-03
+      7       5         7.87     0.14E-03  (  5)    0.35E-03
+      8       5         7.96     0.11E-03  (  5)    0.36E-03
+      9       5         7.98     0.90E-04  (  5)    0.35E-03
+     10       5         8.01     0.71E-04  (  5)    0.36E-03
+     11       3         4.99     0.56E-04  (  5)    0.35E-03
+     12       2         3.47     0.42E-04  (  5)    0.36E-03
+     13       2         3.46     0.29E-04  (  5)    0.35E-03
+     14       2         3.46     0.20E-04  (  5)    0.36E-03
+     15       2         3.47     0.14E-04  (  5)    0.36E-03
+     16       1         2.00     0.10E-04  (  5)    0.36E-03
+     17       1         2.00     0.75E-05  (  5)    0.36E-03
+     18       1         2.00     0.58E-05  (  5)    0.36E-03
+     19       1         2.00     0.47E-05  (  5)    0.36E-03
+     20       1         2.00     0.37E-05  (  5)    0.36E-03
+     21       1         2.00     0.26E-05  (  5)    0.36E-03
+     22       1         2.00     0.16E-05  (  5)    0.36E-03
+     23       1         1.99     0.11E-05  (  5)    0.36E-03
+     24       1         2.00     0.54E-06  (  5)    0.36E-03
+    --------------------------------------
+    converged in  24 iterations
+
+   Total time        115.97 minutes
+
+
+ ===========================================
+
+
+
+ Left and right eigenvalues converged to the same
+ results within   0.74E-08 a.u.
+
+
+                    ========   CC DENSITY MODULE   ========
+
+                      current wave-function model: CC2     
+
+  calculating overlap between    5 left and right vector(s)
+    density nr.      cpu/min        wall/min    L     R
+   ------------------------------------------------------
+         1             3.21            1.61    LE0    RE0 
+         2             3.22            1.61    LE0    RE0 
+         3             3.22            1.61    LE0    RE0 
+         4             3.22            1.61    LE0    RE0 
+         5             3.22            1.61    LE0    RE0 
+   ------------------------------------------------------
+     time in cc_1den       cpu: 16 min  6 s  wall:  8 min  4 s  ratio:  2.0
+
+
+
+     +==========================================================+
+     |   contributions of excitation levels to excited states   |
+     |     wavefunctions as computed from the <L|R> overlap     |
+     +----------------------------------------------------------+
+     | sym | multi | state |    E / eV  | % singles | % doubles |
+     +==========================================================+
+     | a   |   1   |   1   |    4.71926 |   89.38   |   10.62   |
+     | a   |   1   |   2   |    4.96031 |   89.43   |   10.57   |
+     | a   |   1   |   3   |    5.12292 |   89.58   |   10.42   |
+     | a   |   1   |   4   |    6.16503 |   88.26   |   11.74   |
+     | a   |   1   |   5   |    6.32893 |   90.71   |    9.29   |
+     +==========================================================+
+
+
+
+     No geometry optimization requested (for this method)...
+        ... excited state gradients will not be written to $grad.
+
+
+
+   **************************************************************************
+   **************************************************************************
+   **                                                                      **
+   **          CALCULATION OF COUPLED CLUSTER RESPONSE PROPERTIES          **
+   **                                                                      **
+   **************************************************************************
+   **************************************************************************
+
+      The semi-canonical algorithm will be used for densities
+
+
+ ======== LINEAR CC RESPONSE SOLVER ========
+
+    threshold for convergence: 0.10E-05
+    maximum number of simultaneous jacoby matrix transformations:  1
+                                                
+     summary of start vectors generation:
+     -------------------------------------------
+     type of solution vectors      : L0 
+     symmetry                      : a  
+     number of vectors requested   :     1
+     number of vectors generated   :     1
+     -------------------------------------------
+                                                
+
+    Iter  #Vectors  time (min)    max. residual 
+    --------------------------------------------
+      1       1         1.99     0.14E+00  (  1)
+      2       1         1.99     0.23E-01  (  1)
+      3       1         2.00     0.56E-02  (  1)
+      4       1         1.99     0.11E-02  (  1)
+      5       1         1.99     0.26E-03  (  1)
+      6       1         1.99     0.63E-04  (  1)
+      7       1         1.99     0.12E-04  (  1)
+      8       1         1.99     0.23E-05  (  1)
+      9       1         1.99     0.53E-06  (  1)
+    --------------------------------------------
+    converged in  9 iterations
+
+         Total time         17.94 minutes
+
+
+ ===========================================
+
+
+
+  === F matrix transformation for    5 state(s) ===
+
+
+                    ========    F MATRIX MODULE    ========
+
+               calculating     5 F * RE0 transformations
+
+
+ ======== LINEAR CC RESPONSE SOLVER ========
+
+    threshold for convergence: 0.10E-05
+    maximum number of simultaneous jacoby matrix transformations:  5
+                                                
+     summary of start vectors generation:
+     -------------------------------------------
+     type of solution vectors      : ME0
+     symmetry                      : a  
+     number of vectors requested   :     5
+     number of vectors generated   :     5
+       -- guessed as rhs/(e_a-e_i) :     5
+     -------------------------------------------
+                                                
+
+    Iter  #Vectors  time (min)    max. residual 
+    --------------------------------------------
+      1       5         7.99     0.30E+00  (  5)
+      2       5         7.97     0.47E-01  (  1)
+      3       5         7.98     0.56E-02  (  3)
+      4       5         8.01     0.75E-03  (  3)
+      5       5         8.01     0.13E-03  (  3)
+      6       5         8.01     0.20E-04  (  3)
+      7       5         7.99     0.23E-05  (  3)
+      8       5         8.00     0.29E-06  (  1)
+    --------------------------------------------
+    converged in  8 iterations
+
+         Total time         63.97 minutes
+
+
+ ===========================================
+
+
+
+
+                   ======== (gen.) F MATRIX MODULE  ========
+
+               calculating     5 LE0 * B * RE0 transformations
+
+
+ ======== LINEAR CC RESPONSE SOLVER ========
+
+    threshold for convergence: 0.10E-05
+    maximum number of simultaneous jacoby matrix transformations:  5
+                                                
+     summary of start vectors generation:
+     -------------------------------------------
+     type of solution vectors      : NL0
+     symmetry                      : a  
+     number of vectors requested   :     5
+     number of vectors generated   :     5
+       -- guessed as rhs/(e_a-e_i) :     5
+     -------------------------------------------
+                                                
+
+    Iter  #Vectors  time (min)    max. residual 
+    --------------------------------------------
+      1       5         8.00     0.15E+00  (  4)
+      2       5         7.99     0.24E-01  (  4)
+      3       5         8.00     0.50E-02  (  2)
+      4       5         8.01     0.10E-02  (  1)
+      5       5         8.01     0.22E-03  (  1)
+      6       5         7.98     0.39E-04  (  1)
+      7       5         8.01     0.74E-05  (  1)
+      8       5         8.01     0.13E-05  (  1)
+      9       3         5.01     0.33E-06  (  4)
+    --------------------------------------------
+    converged in  9 iterations
+
+         Total time         69.02 minutes
+
+
+ ===========================================
+
+
+
+
+                    ========   CC DENSITY MODULE   ========
+
+                      current wave-function model: CC2     
+
+  calculating CC ground state density
+
+   a semicanonical algorithm will be used when possible
+
+    density nr.      cpu/min        wall/min    L     R
+   ------------------------------------------------------
+         1             6.82            3.44    L0     R0  
+   ------------------------------------------------------
+     time in cc_1den       cpu:  6 min 49 s  wall:  3 min 30 s  ratio:  2.0
+
+ reading orbital data $scfmo  from file mos . 
+
+ orbital characterization : scfconv=7
+ 
+
+   ECC2            :     -576.618580593326
+   ECC2 from traces:     -576.618580604596
+   Delta           :        0.000000011270
+
+   --------------------------------------------------------------------------
+
+        Solving 4-Index ERI based CPHF equations using a RI-CPHF
+        preoptimization with a "cbas" type auxiliary basis
+
+
+ ======== LINEAR CC RESPONSE SOLVER ========
+
+    threshold for convergence: 0.32E-01
+    maximum number of simultaneous jacoby matrix transformations:  1
+                                                
+     summary of start vectors generation:
+     -------------------------------------------
+     type of solution vectors      : l0o
+     symmetry                      : a  
+     number of vectors requested   :     1
+     number of vectors generated   :     1
+     -------------------------------------------
+                                                
+
+    Iter  #Vectors  time (min)    max. residual 
+    --------------------------------------------
+      1       1         0.35     0.27E+00  (  1)
+      2       1         0.35     0.91E-01  (  1)
+      3       1         0.35     0.26E-01  (  1)
+    --------------------------------------------
+    converged in  3 iterations
+
+         Total time          1.06 minutes
+
+
+ ===========================================
+
+
+
+
+ ======== LINEAR CC RESPONSE SOLVER ========
+
+    threshold for convergence: 0.10E-02
+    maximum number of simultaneous jacoby matrix transformations:  1
+                                                
+     summary of start vectors generation:
+     -------------------------------------------
+     type of solution vectors      : l0o
+     symmetry                      : a  
+     number of vectors requested   :     1
+     number of vectors generated   :     1
+     -------------------------------------------
+                                                
+
+    Iter  #Vectors  time (min)    max. residual 
+    --------------------------------------------
+      1       1         1.76     0.26E-01  (  1)
+      2       1         1.75     0.10E-01  (  1)
+      3       1         1.72     0.82E-02  (  1)
+      4       1         1.79     0.28E-02  (  1)
+      5       1         1.76     0.15E-02  (  1)
+      6       1         1.77     0.48E-03  (  1)
+    --------------------------------------------
+    converged in  6 iterations
+
+         Total time         10.56 minutes
+
+
+ ===========================================
+
+
+   --------------------------------------------------------------------------
+
+
+                    ========   CC DENSITY MODULE   ========
+
+                      current wave-function model: CC2     
+
+  calculating    15 xi densities
+     and     5 xi type intermediate(s) for excited state gradient
+
+   a semicanonical algorithm will be used when possible
+
+    density nr.      cpu/min        wall/min    L     R
+   ------------------------------------------------------
+         1             5.63            2.84    ME0    R0  
+         2             5.61            2.83    LE0    R0  
+         3             5.61            2.83    ME0    R0  
+         4             5.54            2.79    LE0    R0  
+         5             5.62            2.83    ME0    R0  
+         6             5.55            2.80    LE0    R0  
+         7             5.63            2.84    ME0    R0  
+         8             5.57            2.81    LE0    R0  
+         9             5.52            2.78    ME0    R0  
+        10             5.45            2.75    LE0    R0  
+        11             9.02            4.66    NL0    R0  
+        12             8.95            4.63    NL0    R0  
+        13             8.98            4.65    NL0    R0  
+        14             8.96            4.64    NL0    R0  
+        15             8.96            4.64    NL0    R0  
+   ------------------------------------------------------
+     time in cc_1den       cpu:  1 h 40 min  wall:  0 h 51 min  ratio:  2.0
+
+
+                    ========   CC DENSITY MODULE   ========
+
+                      current wave-function model: CC2     
+
+  calculating     5 eta densities
+
+   a semicanonical algorithm will be used when possible
+
+    density nr.      cpu/min        wall/min    L     R
+   ------------------------------------------------------
+         1             9.09            4.72    L0     RE0 
+         2             8.97            4.65    L0     RE0 
+         3             8.96            4.59    L0     RE0 
+         4             9.02            4.65    L0     RE0 
+         5             8.79            4.53    L0     RE0 
+   ------------------------------------------------------
+     time in cc_1den       cpu: 44 min 52 s  wall: 23 min 10 s  ratio:  1.9
+
+
+                    ========   CC DENSITY MODULE   ========
+
+                      current wave-function model: CC2     
+
+  calculating     5 A densities
+     and     5 set of A type intermediate(s) for excited state gradient
+
+   a semicanonical algorithm will be used when possible
+
+    density nr.      cpu/min        wall/min    L     R
+   ------------------------------------------------------
+         1            11.76            6.12    LE0    RE0 
+         2            11.77            6.11    LE0    RE0 
+         3            11.76            6.11    LE0    RE0 
+         4            11.73            6.10    LE0    RE0 
+         5            11.75            6.11    LE0    RE0 
+   ------------------------------------------------------
+     time in cc_1den       cpu: 58 min 48 s  wall: 30 min 34 s  ratio:  1.9
+
+ reading orbital data $scfmo  from file mos . 
+
+ orbital characterization : scfconv=7
+ 
+
+   ECC2+Excitation energy :     -576.445150818210
+   dto. calc. from traces :     -576.445150829747
+   Delta                  :        0.000000011537
+
+
+   ECC2+Excitation energy :     -576.436292460210
+   dto. calc. from traces :     -576.436292474390
+   Delta                  :        0.000000014180
+
+
+   ECC2+Excitation energy :     -576.430316711826
+   dto. calc. from traces :     -576.430316723699
+   Delta                  :        0.000000011873
+
+
+   ECC2+Excitation energy :     -576.392019934487
+   dto. calc. from traces :     -576.392019942709
+   Delta                  :        0.000000008222
+
+
+   ECC2+Excitation energy :     -576.385996594697
+   dto. calc. from traces :     -576.385996611403
+   Delta                  :        0.000000016707
+
+   --------------------------------------------------------------------------
+
+        Solving 4-Index ERI based CPHF equations using a RI-CPHF
+        preoptimization with a "cbas" type auxiliary basis
+
+
+ ======== LINEAR CC RESPONSE SOLVER ========
+
+    threshold for convergence: 0.32E-01
+    maximum number of simultaneous jacoby matrix transformations:  5
+                                                
+     summary of start vectors generation:
+     -------------------------------------------
+     type of solution vectors      : l0o
+     symmetry                      : a  
+     number of vectors requested   :     5
+     number of vectors generated   :     5
+       -- guessed as rhs/(e_a-e_i) :     4
+     -------------------------------------------
+                                                
+
+    Iter  #Vectors  time (min)    max. residual 
+    --------------------------------------------
+      1       5         1.23     0.31E+00  (  1)
+      2       5         1.28     0.15E+00  (  1)
+      3       5         1.22     0.52E-01  (  1)
+      4       1         0.35     0.23E-01  (  5)
+    --------------------------------------------
+    converged in  4 iterations
+
+         Total time          4.09 minutes
+
+
+ ===========================================
+
+
+
+
+ ======== LINEAR CC RESPONSE SOLVER ========
+
+    threshold for convergence: 0.10E-02
+    maximum number of simultaneous jacoby matrix transformations:  5
+                                                
+     summary of start vectors generation:
+     -------------------------------------------
+     type of solution vectors      : l0o
+     symmetry                      : a  
+     number of vectors requested   :     5
+     number of vectors generated   :     5
+       -- restarted from file      :     5
+     -------------------------------------------
+                                                
+
+    Iter  #Vectors  time (min)    max. residual 
+    --------------------------------------------
+      1       5         3.68     0.23E-01  (  5)
+      2       5         3.72     0.99E-02  (  5)
+      3       5         3.67     0.45E-02  (  4)
+      4       5         3.72     0.15E-02  (  4)
+      5       4         3.16     0.65E-03  (  4)
+    --------------------------------------------
+    converged in  5 iterations
+
+         Total time         17.95 minutes
+
+
+ ===========================================
+
+
+   --------------------------------------------------------------------------
+
+ 1e-integral 1st. derivatives will be neglected if expon. factor < 0.100000E-11
+
+
+ 1e-integral 1st. derivatives will be neglected if expon. factor < 0.100000E-11
+
+
+ 1e-integral 1st. derivatives will be neglected if expon. factor < 0.100000E-11
+
+
+ 1e-integral 1st. derivatives will be neglected if expon. factor < 0.100000E-11
+
+
+ 1e-integral 1st. derivatives will be neglected if expon. factor < 0.100000E-11
+
+ 
+
+     +--------------------------------------------------------------------+
+     | CC2 unrelaxed natural orbital occupation numbers                   |
+     +--------------------------------------------------------------------+
+     | natural orb.  |  occupation numbers                                |
+     +---------------+----------------------------------------------------+
+     | a             |                                                    |
+     |     1 -     5 |     2.0000    2.0000    2.0000    2.0000    2.0000 |
+     |     6 -    10 |     2.0000    2.0000    2.0000    2.0000    2.0000 |
+     |    11 -    15 |     2.0000    2.0000    2.0000    2.0000    1.9842 |
+     |    16 -    20 |     1.9826    1.9814    1.9785    1.9781    1.9778 |
+     |    21 -    25 |     1.9767    1.9742    1.9711    1.9694    1.9689 |
+     |    26 -    30 |     1.9674    1.9663    1.9662    1.9637    1.9623 |
+     |    31 -    35 |     1.9600    1.9572    1.9565    1.9560    1.9544 |
+     |    36 -    40 |     1.9537    1.9508    1.9505    1.9494    1.9468 |
+     |    41 -    45 |     1.9464    1.9442    1.9425    1.9412    1.9395 |
+     |    46 -    50 |     1.9057    1.9046    1.9032    1.8892    0.0873 |
+     |    51 -    55 |     0.0755    0.0734    0.0712    0.0377    0.0365 |
+     |    56 -    60 |     0.0344    0.0334    0.0305    0.0296    0.0277 |
+     |    61 -    65 |     0.0271    0.0265    0.0262    0.0255    0.0248 |
+     |    66 -    70 |     0.0241    0.0215    0.0215    0.0201    0.0195 |
+     |    71 -    75 |     0.0193    0.0188    0.0182    0.0181    0.0177 |
+     |    76 -    80 |     0.0174    0.0173    0.0170    0.0161    0.0153 |
+     |    81 -    85 |     0.0151    0.0147    0.0142    0.0140    0.0137 |
+     |    86 -    90 |     0.0135    0.0131    0.0123    0.0122    0.0113 |
+     |    91 -    95 |     0.0111    0.0108    0.0108    0.0106    0.0104 |
+     |    96 -   100 |     0.0103    0.0101    0.0101    0.0100    0.0097 |
+     |   101 -   105 |     0.0096    0.0095    0.0094    0.0093    0.0090 |
+     |   106 -   110 |     0.0080    0.0078    0.0076    0.0076    0.0073 |
+     |   111 -   115 |     0.0069    0.0069    0.0063    0.0063    0.0062 |
+     |   116 -   120 |     0.0060    0.0060    0.0057    0.0056    0.0055 |
+     |   121 -   125 |     0.0055    0.0052    0.0050    0.0049    0.0048 |
+     |   126 -   130 |     0.0047    0.0043    0.0043    0.0041    0.0040 |
+     |   131 -   135 |     0.0037    0.0036    0.0036    0.0033    0.0033 |
+     |   136 -   140 |     0.0033    0.0033    0.0032    0.0031    0.0030 |
+     |   141 -   145 |     0.0030    0.0029    0.0029    0.0026    0.0026 |
+     |   146 -   150 |     0.0025    0.0024    0.0024    0.0023    0.0022 |
+     |   151 -   155 |     0.0020    0.0020    0.0020    0.0019    0.0019 |
+     |   156 -   160 |     0.0019    0.0019    0.0019    0.0019    0.0018 |
+     |   161 -   165 |     0.0018    0.0018    0.0017    0.0017    0.0017 |
+     |   166 -   170 |     0.0016    0.0016    0.0015    0.0015    0.0015 |
+     |   171 -   175 |     0.0015    0.0015    0.0014    0.0014    0.0014 |
+     |   176 -   180 |     0.0014    0.0013    0.0013    0.0013    0.0013 |
+     |   181 -   185 |     0.0012    0.0012    0.0012    0.0012    0.0011 |
+     |   186 -   190 |     0.0011    0.0011    0.0011    0.0011    0.0010 |
+     |   191 -   194 |     0.0010    0.0010    0.0010    0.0010           |
+     +---------------+----------------------------------------------------+
+      natural orbitals with occ <   0.10E-02 are not shown
+
+      Maximum change in occupation number:
+        occupied         :    -5.54 % (   49 a    )
+        virtual          :     4.36 % (   50 a    )
+ 
+
+     +--------------------------------------------------------------------+
+     | CC2 relaxed   natural orbital occupation numbers                   |
+     +--------------------------------------------------------------------+
+     | natural orb.  |  occupation numbers                                |
+     +---------------+----------------------------------------------------+
+     | a             |                                                    |
+     |     1 -     5 |     2.0000    2.0000    2.0000    2.0000    2.0000 |
+     |     6 -    10 |     2.0000    2.0000    2.0000    2.0000    2.0000 |
+     |    11 -    15 |     2.0000    2.0000    2.0000    2.0000    1.9842 |
+     |    16 -    20 |     1.9826    1.9814    1.9785    1.9781    1.9778 |
+     |    21 -    25 |     1.9767    1.9742    1.9712    1.9695    1.9690 |
+     |    26 -    30 |     1.9675    1.9664    1.9663    1.9638    1.9625 |
+     |    31 -    35 |     1.9602    1.9573    1.9567    1.9562    1.9547 |
+     |    36 -    40 |     1.9538    1.9510    1.9507    1.9496    1.9469 |
+     |    41 -    45 |     1.9466    1.9444    1.9424    1.9416    1.9396 |
+     |    46 -    50 |     1.9058    1.9047    1.9032    1.8894    0.0868 |
+     |    51 -    55 |     0.0753    0.0733    0.0709    0.0375    0.0365 |
+     |    56 -    60 |     0.0343    0.0333    0.0304    0.0295    0.0276 |
+     |    61 -    65 |     0.0270    0.0264    0.0261    0.0255    0.0247 |
+     |    66 -    70 |     0.0240    0.0215    0.0213    0.0200    0.0194 |
+     |    71 -    75 |     0.0192    0.0188    0.0182    0.0181    0.0177 |
+     |    76 -    80 |     0.0174    0.0173    0.0170    0.0161    0.0152 |
+     |    81 -    85 |     0.0149    0.0146    0.0141    0.0140    0.0136 |
+     |    86 -    90 |     0.0134    0.0131    0.0122    0.0121    0.0114 |
+     |    91 -    95 |     0.0111    0.0108    0.0108    0.0106    0.0104 |
+     |    96 -   100 |     0.0102    0.0102    0.0101    0.0100    0.0098 |
+     |   101 -   105 |     0.0096    0.0096    0.0094    0.0092    0.0089 |
+     |   106 -   110 |     0.0080    0.0077    0.0076    0.0076    0.0073 |
+     |   111 -   115 |     0.0069    0.0069    0.0063    0.0063    0.0061 |
+     |   116 -   120 |     0.0060    0.0060    0.0057    0.0056    0.0055 |
+     |   121 -   125 |     0.0055    0.0051    0.0049    0.0048    0.0048 |
+     |   126 -   130 |     0.0047    0.0043    0.0043    0.0041    0.0040 |
+     |   131 -   135 |     0.0037    0.0036    0.0035    0.0033    0.0033 |
+     |   136 -   140 |     0.0033    0.0033    0.0032    0.0031    0.0030 |
+     |   141 -   145 |     0.0030    0.0029    0.0029    0.0026    0.0026 |
+     |   146 -   150 |     0.0025    0.0024    0.0024    0.0023    0.0022 |
+     |   151 -   155 |     0.0020    0.0020    0.0020    0.0019    0.0019 |
+     |   156 -   160 |     0.0019    0.0019    0.0019    0.0019    0.0018 |
+     |   161 -   165 |     0.0018    0.0018    0.0017    0.0017    0.0017 |
+     |   166 -   170 |     0.0016    0.0016    0.0015    0.0015    0.0015 |
+     |   171 -   175 |     0.0015    0.0015    0.0014    0.0014    0.0014 |
+     |   176 -   180 |     0.0014    0.0013    0.0013    0.0013    0.0013 |
+     |   181 -   185 |     0.0012    0.0012    0.0012    0.0012    0.0011 |
+     |   186 -   190 |     0.0011    0.0011    0.0011    0.0011    0.0010 |
+     |   191 -   194 |     0.0010    0.0010    0.0010    0.0010           |
+     +---------------+----------------------------------------------------+
+      natural orbitals with occ <   0.10E-02 are not shown
+
+      Maximum change in occupation number:
+        occupied         :    -5.53 % (   49 a    )
+        virtual          :     4.34 % (   50 a    )
+
+
+ **************************************************************
+ *                                                            *
+ *<<<<<<<<<<  GROUND STATE FIRST-ORDER PROPERTIES  >>>>>>>>>>>*
+ *                                                            *
+ **************************************************************
+
+
+
+        ------------------------------------------------
+            Method          :  CC2     
+            Total Energy    :   -576.6185805933
+            D1 diagnostic   :      0.0540
+        ------------------------------------------------
+
+
+        ------------------------------------------------
+                      moments of inertia 
+              694.630   5868.050   6392.646  in a.u.
+ 
+                     rotational constants 
+              0.08666    0.01026    0.00942  in cm**(-1)
+        ------------------------------------------------
+
+
+ +===========================================================================+
+ | OPERATOR         | EXPECTAT. VALUE  | ELECTRONIC CONT. | NUCLEAR CONTRIB. |
+ +==================+==================+==================+==================+
+ |                  |                  |                  |                  |
+ | xdiplen  (unrel) |     -0.50322176  |    -10.81860280  |     10.31538104  | 
+ | xdiplen  (relax) |     -0.49394480  |    -10.80932584  |     10.31538104  | 
+ |                  |                  |                  |                  |
+ | ydiplen  (unrel) |     -0.08825688  |     -4.48397277  |      4.39571590  | 
+ | ydiplen  (relax) |     -0.09296960  |     -4.48868549  |      4.39571590  | 
+ |                  |                  |                  |                  |
+ | zdiplen  (unrel) |      0.30799883  |     15.63868067  |    -15.33068184  | 
+ | zdiplen  (relax) |      0.32408762  |     15.65476947  |    -15.33068184  | 
+ |                  |                  |                  |                  |
+ +===========================================================================+
+
+
+     Analysis of relaxed properties:
+     ===============================
+
+
+     dipole moment:
+     --------------
+
+     x     -0.49394480
+     y     -0.09296960
+     z      0.32408762
+
+     | dipole moment | =      0.59804481 a.u. =      1.52007814 debye
+ 
+
+    --------------------------------------------------------------------------
+
+
+     Analysis of unrelaxed properties:
+     =================================
+
+
+     dipole moment:
+     --------------
+
+     x     -0.50322176
+     y     -0.08825688
+     z      0.30799883
+
+     | dipole moment | =      0.59656072 a.u. =      1.51630596 debye
+ 
+ Exporting ground state density
+
+
+ **************************************************************
+ *                                                            *
+ *<<<<<<<<<<<<  ONE-PHOTON ABSORPTION STRENGTHS  >>>>>>>>>>>>>*
+ *                                                            *
+ **************************************************************
+
+
+
+  +=========================================================================+
+  |  Transition                                             model: CC2      |
+  |    number, symmetry, multiplicity:    1 a    1                          |
+  |    frequency :   0.1734297736 a.u.     4.71926 e.V.     38063.4 rcm     |
+  +=========================================================================+
+
+     +-----------+-----------------+-----------------+---------------------+
+     | operator  |   left moment   |  right moment   | transition strength |
+     +-----------+-----------------+-----------------+---------------------+
+     | xdiplen   |     -0.29427343 |     -0.17157871 |       0.05049106    |
+     | ydiplen   |     -0.15423440 |     -0.09011177 |       0.01389834    |
+     | zdiplen   |      0.42577166 |      0.25200860 |       0.10729812    |
+     | xdipvel   |     -0.05540401 |      0.02786847 |       0.00154403    |
+     | ydipvel   |     -0.03070770 |      0.01564333 |       0.00048037    |
+     | zdipvel   |      0.08163874 |     -0.04038576 |       0.00329704    |
+     +-----------+-----------------+-----------------+---------------------+
+ 
+       oscillator strength (length gauge)   :      0.01985048
+       oscillator strength (velocity gauge) :      0.02045569
+       oscillator strength (mixed gauge)    :      0.02021858
+ 
+ 
+
+
+  +=========================================================================+
+  |  Transition                                             model: CC2      |
+  |    number, symmetry, multiplicity:    2 a    1                          |
+  |    frequency :   0.1822881335 a.u.     4.96031 e.V.     40007.6 rcm     |
+  +=========================================================================+
+
+     +-----------+-----------------+-----------------+---------------------+
+     | operator  |   left moment   |  right moment   | transition strength |
+     +-----------+-----------------+-----------------+---------------------+
+     | xdiplen   |     -0.04696373 |     -0.02926391 |       0.00137434    |
+     | ydiplen   |      0.01373821 |      0.00943465 |       0.00012962    |
+     | zdiplen   |      0.15567285 |      0.09404664 |       0.01464051    |
+     | xdipvel   |     -0.00908796 |      0.00509556 |       0.00004631    |
+     | ydipvel   |      0.00333708 |     -0.00227281 |       0.00000758    |
+     | zdipvel   |      0.02946401 |     -0.01592521 |       0.00046922    |
+     +-----------+-----------------+-----------------+---------------------+
+ 
+       oscillator strength (length gauge)   :      0.00196196
+       oscillator strength (velocity gauge) :      0.00191314
+       oscillator strength (mixed gauge)    :      0.00193936
+ 
+ 
+
+
+  +=========================================================================+
+  |  Transition                                             model: CC2      |
+  |    number, symmetry, multiplicity:    3 a    1                          |
+  |    frequency :   0.1882638750 a.u.     5.12292 e.V.     41319.1 rcm     |
+  +=========================================================================+
+
+     +-----------+-----------------+-----------------+---------------------+
+     | operator  |   left moment   |  right moment   | transition strength |
+     +-----------+-----------------+-----------------+---------------------+
+     | xdiplen   |     -3.02765790 |     -1.73698602 |       5.25899945    |
+     | ydiplen   |      0.24439536 |      0.14160043 |       0.03460649    |
+     | zdiplen   |     -0.77894807 |     -0.45113296 |       0.35140915    |
+     | xdipvel   |     -0.56668574 |      0.28290076 |       0.16031583    |
+     | ydipvel   |      0.04542200 |     -0.02271709 |       0.00103186    |
+     | zdipvel   |     -0.14489779 |      0.07256758 |       0.01051488    |
+     +-----------+-----------------+-----------------+---------------------+
+ 
+       oscillator strength (length gauge)   :      0.70850161
+       oscillator strength (velocity gauge) :      0.60858752
+       oscillator strength (mixed gauge)    :      0.65824340
+ 
+ 
+
+
+  +=========================================================================+
+  |  Transition                                             model: CC2      |
+  |    number, symmetry, multiplicity:    4 a    1                          |
+  |    frequency :   0.2265606654 a.u.     6.16503 e.V.     49724.3 rcm     |
+  +=========================================================================+
+
+     +-----------+-----------------+-----------------+---------------------+
+     | operator  |   left moment   |  right moment   | transition strength |
+     +-----------+-----------------+-----------------+---------------------+
+     | xdiplen   |     -0.28919508 |     -0.17059831 |       0.04933619    |
+     | ydiplen   |      0.48707303 |      0.28734839 |       0.13995965    |
+     | zdiplen   |      0.54083414 |      0.31944468 |       0.17276659    |
+     | xdipvel   |     -0.06605638 |      0.03455881 |       0.00228283    |
+     | ydipvel   |      0.12045616 |     -0.06375899 |       0.00768016    |
+     | zdipvel   |      0.12938510 |     -0.06811761 |       0.00881340    |
+     +-----------+-----------------+-----------------+---------------------+
+ 
+       oscillator strength (length gauge)   :      0.05468607
+       oscillator strength (velocity gauge) :      0.05525053
+       oscillator strength (mixed gauge)    :      0.05503441
+ 
+ 
+
+
+  +=========================================================================+
+  |  Transition                                             model: CC2      |
+  |    number, symmetry, multiplicity:    5 a    1                          |
+  |    frequency :   0.2325839918 a.u.     6.32893 e.V.     51046.3 rcm     |
+  +=========================================================================+
+
+     +-----------+-----------------+-----------------+---------------------+
+     | operator  |   left moment   |  right moment   | transition strength |
+     +-----------+-----------------+-----------------+---------------------+
+     | xdiplen   |     -0.01317818 |     -0.02984638 |       0.00039332    |
+     | ydiplen   |      0.16921137 |      0.09631175 |       0.01629704    |
+     | zdiplen   |     -0.87896611 |     -0.50737975 |       0.44596960    |
+     | xdipvel   |      0.00431340 |      0.00247016 |       0.00001065    |
+     | ydipvel   |      0.04047962 |     -0.02095732 |       0.00084834    |
+     | zdipvel   |     -0.21199111 |      0.10998147 |       0.02331509    |
+     +-----------+-----------------+-----------------+---------------------+
+ 
+       oscillator strength (length gauge)   :      0.07173820
+       oscillator strength (velocity gauge) :      0.06923029
+       oscillator strength (mixed gauge)    :      0.07052623
+ 
+ 
+ Exporting transition densities
+
+
+ *************************************************************
+ *                                                           *
+ *<<<<<<<<<<<<<<<  EXCITED STATE PROPERTIES  >>>>>>>>>>>>>>>>*
+ *                                                           *
+ *************************************************************
+
+
+
+  +=========================================================================+
+  |  Excited state reached by transition:                   model: CC2      |
+  |    number, symmetry, multiplicity:    1 a    1                          |
+  |    frequency :   0.1734297736 a.u.     4.71926 e.V.     38063.4 rcm     |
+  +=========================================================================+
+
+      Total energy of excited state:    -576.4451508197
+
+   +-----------------+-----------------+-----------------+-----------------+
+   | operator        | expect. value   | electr. contrib.| diff to gr.st.  |
+   +-----------------+-----------------+-----------------+-----------------+
+   | xdiplen (unrel) |     -0.53071681 |    -10.84609785 |     -0.02749505 |
+   | xdiplen (relax) |     -0.51345790 |    -10.82883895 |       ---       |
+   | ydiplen (unrel) |     -0.12032803 |     -4.51604393 |     -0.03207116 |
+   | ydiplen (relax) |     -0.12497203 |     -4.52068793 |       ---       |
+   | zdiplen (unrel) |      0.40660002 |     15.73728186 |      0.09860120 |
+   | zdiplen (relax) |      0.42226209 |     15.75294394 |       ---       |
+   | xxqudlen(unrel) |    -44.55919117 |  -3020.89144793 |      5.39370038 |
+   | xxqudlen(relax) |    -45.60473822 |  -3021.93699498 |       ---       |
+   | xyqudlen(unrel) |     -0.95071237 |    248.80909069 |     -0.54246359 |
+   | xyqudlen(relax) |     -0.82367999 |    248.93612306 |       ---       |
+   | xzqudlen(unrel) |     -0.50564797 |   -687.47231310 |      1.63144335 |
+   | xzqudlen(relax) |     -0.89819327 |   -687.86485839 |       ---       |
+   | yyqudlen(unrel) |    -65.53483944 |   -140.98926409 |     -0.38902819 |
+   | yyqudlen(relax) |    -65.76038428 |   -141.21480893 |       ---       |
+   | yzqudlen(unrel) |      1.28375106 |     55.33296233 |      0.36288438 |
+   | yzqudlen(relax) |      1.29847334 |     55.34768461 |       ---       |
+   | zzqudlen(unrel) |    -59.70026480 |   -611.90290054 |     -1.27134993 |
+   | zzqudlen(relax) |    -60.04455647 |   -612.24719221 |       ---       |
+   +-----------------+-----------------+-----------------+-----------------+
+
+
+     Analysis of relaxed properties:
+     ===============================
+
+
+     dipole moment:
+     --------------
+
+     x     -0.51345790
+     y     -0.12497203
+     z      0.42226209
+
+     | dipole moment | =      0.67643352 a.u. =      1.71932234 debye
+
+
+     traceless quadrupole tensor:
+     ----------------------------
+
+               x              y              z
+
+     x    17.29773215    -1.23551999    -1.34728990
+     y                  -12.93573693     1.94771002
+     z                                  -4.36199522
+
+
+     principal axes of tensor: 
+
+      x' = (   0.9968425,  -0.0447493,  -0.0655937 )
+      y' = (   0.0303093,   0.9779627,  -0.2065680 )
+      z' = (   0.0733920,   0.2039276,   0.9762311 )
+
+     < Q(x'x') > =     17.44184959 a.u.
+     < Q(y'y') > =    -13.38542918 a.u.
+     < Q(z'z') > =     -4.05642042 a.u.
+
+
+     second moment of electron density:
+     ----------------------------------
+
+               x              y              z
+
+     x  3021.93699498  -248.93612306   687.86485839
+     y                  141.21480893   -55.34768461
+     z                                 612.24719221
+
+
+     principal axes of tensor: 
+
+      x' = (   0.9633458,  -0.0823339,   0.2553156 )
+      y' = (   0.0880591,   0.9960539,  -0.0110544 )
+      z' = (  -0.2533979,   0.0331321,   0.9667946 )
+
+     < x'x'> =   3225.51759476 a.u.
+     < y'y'> =    119.82113011 a.u.
+     < z'z'> =    430.06027126 a.u.
+
+     Isotropic second moment:     alpha =   1258.46633204 a.u.
+
+     Anisotropy of second moment:  beta =   2616.27843090 a.u.
+ 
+
+
+     Analysis of unrelaxed properties:
+     =================================
+
+
+     dipole moment:
+     --------------
+
+     x     -0.53071681
+     y     -0.12032803
+     z      0.40660002
+
+     | dipole moment | =      0.67931049 a.u. =      1.72663488 debye
+
+
+     traceless quadrupole tensor:
+     ----------------------------
+
+               x              y              z
+
+     x    18.05836096    -1.42606855    -0.75847196
+     y                  -13.40511145     1.92562659
+     z                                  -4.65324950
+
+
+     principal axes of tensor: 
+
+      x' = (   0.9981845,  -0.0473742,  -0.0371947 )
+      y' = (   0.0389404,   0.9787083,  -0.2015284 )
+      z' = (   0.0459500,   0.1997141,   0.9787762 )
+
+     < Q(x'x') > =     18.15430515 a.u.
+     < Q(y'y') > =    -13.85836210 a.u.
+     < Q(z'z') > =     -4.29594305 a.u.
+
+
+     second moment of electron density:
+     ----------------------------------
+
+               x              y              z
+
+     x  3020.89144793  -248.80909069   687.47231310
+     y                  140.98926409   -55.33296233
+     z                                 611.90290054
+
+
+     principal axes of tensor: 
+
+      x' = (   0.9633621,  -0.0823195,   0.2552588 )
+      y' = (   0.0880168,   0.9960587,  -0.0109574 )
+      z' = (  -0.2533507,   0.0330230,   0.9668107 )
+
+     < x'x'> =   3224.30945984 a.u.
+     < y'y'> =    119.61193236 a.u.
+     < z'z'> =    429.86222036 a.u.
+
+     Isotropic second moment:     alpha =   1257.92787085 a.u.
+
+     Anisotropy of second moment:  beta =   2615.56228164 a.u.
+ 
+     Difference in isotropic second moment relative to ground state:
+       Delta alpha =   -1.244441 a.u. (    -0.1%)
+ 
+          -----------------------------------------------
+           total gradient of CC2 energy of excited state     
+          -----------------------------------------------
+
+          ------------------------------------------------
+           cartesian gradient of the energy (hartree/bohr)
+          ------------------------------------------------
+
+  ATOM      1 c           2 c           3 c           4 c           5 c 
+dE/dx  0.1521808D-01 -0.1112040D-03  0.1455646D-02 -0.4637589D-03  0.1390005D-02
+dE/dy -0.2056428D-02  0.1638643D-02 -0.1906246D-02 -0.1250464D-03  0.1569227D-02
+dE/dz  0.5370745D-02 -0.6954013D-02 -0.3806249D-03 -0.3717849D-03  0.1649774D-02
+
+  ATOM      6 c           7 h           8 h           9 h          10 h 
+dE/dx -0.4543329D-02  0.6388244D-03  0.9102366D-04 -0.1170092D-03  0.1530364D-03
+dE/dy -0.7803513D-03  0.6424975D-03 -0.6663613D-04  0.8167189D-04  0.3902730D-04
+dE/dz  0.5107768D-02  0.1618216D-04  0.6242691D-04 -0.8439398D-04  0.2041100D-04
+
+  ATOM     11 h          12 c          13 c          14 c          15 c 
+dE/dx  0.4916356D-03 -0.2697533D-01 -0.3545513D-01  0.2283002D-01  0.1157350D-01
+dE/dy -0.7215436D-03  0.5697142D-03  0.2210392D-02 -0.9275681D-02 -0.3809797D-02
+dE/dz  0.1905903D-03 -0.7044169D-04  0.1311025D-01  0.2860279D-01  0.1256956D-01
+
+  ATOM     16 c          17 c          18 h          19 h          20 o 
+dE/dx  0.2850936D-01 -0.6201172D-02 -0.2194546D-03  0.2937786D-03 -0.1439022D-01
+dE/dy  0.5608286D-02  0.4349299D-02 -0.4410510D-03  0.1280531D-03  0.1268375D-02
+dE/dz -0.1678480D-01 -0.3509220D-01 -0.1124249D-02 -0.5290120D-03 -0.4489570D-02
+
+  ATOM     21 h          22 h          23 c          24 h          25 h 
+dE/dx -0.2813624D-03 -0.2419253D-03  0.8278565D-02 -0.2848042D-03 -0.8493997D-03
+dE/dy -0.3548262D-04  0.5993563D-03  0.1270740D-02 -0.7855132D-04 -0.9686282D-03
+dE/dz  0.1588295D-03  0.7244431D-03 -0.4715347D-02  0.3830880D-03  0.1094373D-02
+
+  ATOM     26 h 
+dE/dx -0.7893863D-03
+dE/dy  0.2901595D-03
+dE/dz  0.1535200D-02
+ 
+ resulting FORCE  (fx,fy,fz) = (-.306D-09,-.405D-10,0.361D-10)
+ resulting MOMENT (mx,my,mz) = (-.348D-07,-.745D-05,-.233D-05)
+
+
+ **********************************************************************
+  |maximum component of gradient| : 0.35455129E-01  (atom 13 c )       
+   gradient norm                  : 0.83766952E-01
+ **********************************************************************
+
+
+  +=========================================================================+
+  |  Excited state reached by transition:                   model: CC2      |
+  |    number, symmetry, multiplicity:    2 a    1                          |
+  |    frequency :   0.1822881335 a.u.     4.96031 e.V.     40007.6 rcm     |
+  +=========================================================================+
+
+      Total energy of excited state:    -576.4362924598
+
+   +-----------------+-----------------+-----------------+-----------------+
+   | operator        | expect. value   | electr. contrib.| diff to gr.st.  |
+   +-----------------+-----------------+-----------------+-----------------+
+   | xdiplen (unrel) |     -1.11353243 |    -11.42891347 |     -0.61031067 |
+   | xdiplen (relax) |     -1.05006577 |    -11.36544681 |       ---       |
+   | ydiplen (unrel) |     -0.03178987 |     -4.42750577 |      0.05646701 |
+   | ydiplen (relax) |     -0.04216271 |     -4.43787860 |       ---       |
+   | zdiplen (unrel) |      0.12854538 |     15.45922722 |     -0.17945345 |
+   | zdiplen (relax) |      0.16234660 |     15.49302844 |       ---       |
+   | xxqudlen(unrel) |    -50.89872265 |  -3027.23097942 |     -0.94583111 |
+   | xxqudlen(relax) |    -51.18430372 |  -3027.51656048 |       ---       |
+   | xyqudlen(unrel) |     -0.23614825 |    249.52365481 |      0.17210053 |
+   | xyqudlen(relax) |     -0.18888621 |    249.57091685 |       ---       |
+   | xzqudlen(unrel) |     -2.13389853 |   -689.10056366 |      0.00319279 |
+   | xzqudlen(relax) |     -2.26751472 |   -689.23417985 |       ---       |
+   | yyqudlen(unrel) |    -65.49163822 |   -140.94606287 |     -0.34582697 |
+   | yyqudlen(relax) |    -65.71903475 |   -141.17345941 |       ---       |
+   | yzqudlen(unrel) |      0.52885263 |     54.57806390 |     -0.39201405 |
+   | yzqudlen(relax) |      0.54490066 |     54.59411193 |       ---       |
+   | zzqudlen(unrel) |    -59.24243165 |   -611.44506738 |     -0.81351677 |
+   | zzqudlen(relax) |    -59.60937784 |   -611.81201358 |       ---       |
+   +-----------------+-----------------+-----------------+-----------------+
+
+
+     Analysis of relaxed properties:
+     ===============================
+
+
+     dipole moment:
+     --------------
+
+     x     -1.05006577
+     y     -0.04216271
+     z      0.16234660
+
+     | dipole moment | =      1.06337774 a.u. =      2.70283637 debye
+
+
+     traceless quadrupole tensor:
+     ----------------------------
+
+               x              y              z
+
+     x    11.47990258    -0.28332931    -3.40127208
+     y                  -10.32219397     0.81735099
+     z                                  -1.15770860
+
+
+     principal axes of tensor: 
+
+      x' = (   0.9692033,  -0.0209603,  -0.2453684 )
+      y' = (  -0.0008522,   0.9960798,  -0.0884552 )
+      z' = (   0.2462605,   0.0859402,   0.9653860 )
+
+     < Q(x'x') > =     12.34711305 a.u.
+     < Q(y'y') > =    -10.39453506 a.u.
+     < Q(z'z') > =     -1.95257799 a.u.
+
+
+     second moment of electron density:
+     ----------------------------------
+
+               x              y              z
+
+     x  3027.51656048  -249.57091685   689.23417985
+     y                  141.17345941   -54.59411193
+     z                                 611.81201358
+
+
+     principal axes of tensor: 
+
+      x' = (   0.9633815,  -0.0823121,   0.2551877 )
+      y' = (   0.0887555,   0.9959576,  -0.0138175 )
+      z' = (  -0.2530188,   0.0359608,   0.9667928 )
+
+     < x'x'> =   3231.40963597 a.u.
+     < y'y'> =    119.69018142 a.u.
+     < z'z'> =    429.40221608 a.u.
+
+     Isotropic second moment:     alpha =   1260.16734449 a.u.
+
+     Anisotropy of second moment:  beta =   2621.79573234 a.u.
+ 
+
+
+     Analysis of unrelaxed properties:
+     =================================
+
+
+     dipole moment:
+     --------------
+
+     x     -1.11353243
+     y     -0.03178987
+     z      0.12854538
+
+     | dipole moment | =      1.12137816 a.u. =      2.85025871 debye
+
+
+     traceless quadrupole tensor:
+     ----------------------------
+
+               x              y              z
+
+     x    11.46831228    -0.35422237    -3.20084780
+     y                  -10.42106107     0.79327894
+     z                                  -1.04725121
+
+
+     principal axes of tensor: 
+
+      x' = (   0.9716516,  -0.0234114,  -0.2352553 )
+      y' = (   0.0040714,   0.9965943,  -0.0823600 )
+      z' = (   0.2363823,   0.0790674,   0.9684378 )
+
+     < Q(x'x') > =     12.25183322 a.u.
+     < Q(y'y') > =    -10.48806589 a.u.
+     < Q(z'z') > =     -1.76376733 a.u.
+
+
+     second moment of electron density:
+     ----------------------------------
+
+               x              y              z
+
+     x  3027.23097942  -249.52365481   689.10056366
+     y                  140.94606287   -54.57806390
+     z                                 611.44506738
+
+
+     principal axes of tensor: 
+
+      x' = (   0.9633949,  -0.0822999,   0.2551411 )
+      y' = (   0.0887379,   0.9959593,  -0.0138052 )
+      z' = (  -0.2529740,   0.0359406,   0.9668053 )
+
+     < x'x'> =   3231.04529063 a.u.
+     < y'y'> =    119.47054085 a.u.
+     < z'z'> =    429.10627819 a.u.
+
+     Isotropic second moment:     alpha =   1259.87403656 a.u.
+
+     Anisotropy of second moment:  beta =   2621.81188061 a.u.
+ 
+     Difference in isotropic second moment relative to ground state:
+       Delta alpha =    0.701725 a.u. (     0.1%)
+ 
+          -----------------------------------------------
+           total gradient of CC2 energy of excited state     
+          -----------------------------------------------
+
+          ------------------------------------------------
+           cartesian gradient of the energy (hartree/bohr)
+          ------------------------------------------------
+
+  ATOM      1 c           2 c           3 c           4 c           5 c 
+dE/dx  0.3778833D-01  0.2804125D-01 -0.1633772D-01 -0.1878967D-01 -0.2688092D-01
+dE/dy -0.3883609D-02 -0.8870000D-02 -0.6422943D-02  0.1889080D-02  0.1083990D-01
+dE/dz  0.1251120D-01 -0.1836582D-01 -0.2595405D-01 -0.6185942D-02  0.1179655D-01
+
+  ATOM      6 c           7 h           8 h           9 h          10 h 
+dE/dx  0.1296067D-01 -0.1324524D-03 -0.1133321D-03  0.2817791D-03  0.2722925D-03
+dE/dy  0.4784563D-02 -0.7241184D-03 -0.7803908D-04  0.7313437D-05  0.6230223D-04
+dE/dz  0.3172873D-01  0.6978999D-03  0.5919893D-03  0.7159578D-04 -0.5431095D-03
+
+  ATOM     11 h          12 c          13 c          14 c          15 c 
+dE/dx  0.4397184D-03 -0.2340293D-01  0.3196291D-02 -0.4284077D-02  0.4494051D-02
+dE/dy  0.7096265D-03  0.1989423D-02 -0.4603423D-04 -0.3145912D-03 -0.5389640D-03
+dE/dz -0.6371574D-03 -0.6558382D-02  0.8789591D-02  0.1805087D-02  0.1858438D-02
+
+  ATOM     16 c          17 c          18 h          19 h          20 o 
+dE/dx -0.2504005D-02  0.8891477D-02 -0.3743545D-03 -0.5460981D-04 -0.4559829D-02
+dE/dy  0.1120887D-02 -0.9829691D-03  0.2254838D-03 -0.3857692D-03  0.2228235D-03
+dE/dz -0.3924618D-02 -0.5680956D-02 -0.1793762D-03 -0.2940237D-04 -0.9873526D-03
+
+  ATOM     21 h          22 h          23 c          24 h          25 h 
+dE/dx -0.3462250D-04 -0.4438884D-03  0.1910152D-02 -0.1303897D-03 -0.1136241D-03
+dE/dy  0.3586954D-03 -0.1757265D-03  0.3624155D-03 -0.8857030D-05 -0.1341058D-03
+dE/dz -0.2212836D-04 -0.1748980D-03 -0.1178662D-02  0.3070281D-04  0.2427765D-03
+
+  ATOM     26 h 
+dE/dx -0.1195790D-03
+dE/dy -0.6790350D-05
+dE/dz  0.2973041D-03
+ 
+ resulting FORCE  (fx,fy,fz) = (-.202D-09,-.481D-10,-.400D-10)
+ resulting MOMENT (mx,my,mz) = (-.262D-05,-.501D-05,-.227D-05)
+
+
+ **********************************************************************
+  |maximum component of gradient| : 0.37788328E-01  (atom  1 c )       
+   gradient norm                  : 0.85142857E-01
+ **********************************************************************
+
+
+  +=========================================================================+
+  |  Excited state reached by transition:                   model: CC2      |
+  |    number, symmetry, multiplicity:    3 a    1                          |
+  |    frequency :   0.1882638750 a.u.     5.12292 e.V.     41319.1 rcm     |
+  +=========================================================================+
+
+      Total energy of excited state:    -576.4303167184
+
+   +-----------------+-----------------+-----------------+-----------------+
+   | operator        | expect. value   | electr. contrib.| diff to gr.st.  |
+   +-----------------+-----------------+-----------------+-----------------+
+   | xdiplen (unrel) |     -2.70301129 |    -13.01839234 |     -2.19978954 |
+   | xdiplen (relax) |     -2.50958737 |    -12.82496841 |       ---       |
+   | ydiplen (unrel) |      0.11104564 |     -4.28467026 |      0.19930251 |
+   | ydiplen (relax) |      0.08621870 |     -4.30949720 |       ---       |
+   | zdiplen (unrel) |     -0.32851656 |     15.00216528 |     -0.63651539 |
+   | zdiplen (relax) |     -0.24909181 |     15.08159003 |       ---       |
+   | xxqudlen(unrel) |    -50.42030362 |  -3026.75256038 |     -0.46741208 |
+   | xxqudlen(relax) |    -50.70523950 |  -3027.03749626 |       ---       |
+   | xyqudlen(unrel) |     -0.32830881 |    249.43149425 |      0.07993997 |
+   | xyqudlen(relax) |     -0.24410198 |    249.51570108 |       ---       |
+   | xzqudlen(unrel) |     -1.72341200 |   -688.69007712 |      0.41367932 |
+   | xzqudlen(relax) |     -1.98778462 |   -688.95444975 |       ---       |
+   | yyqudlen(unrel) |    -65.70036698 |   -141.15479163 |     -0.55455573 |
+   | yyqudlen(relax) |    -65.96715576 |   -141.42158041 |       ---       |
+   | yzqudlen(unrel) |      0.46532315 |     54.51453442 |     -0.45554353 |
+   | yzqudlen(relax) |      0.48048490 |     54.52969617 |       ---       |
+   | zzqudlen(unrel) |    -59.37018460 |   -611.57282034 |     -0.94126972 |
+   | zzqudlen(relax) |    -59.80129942 |   -612.00393516 |       ---       |
+   +-----------------+-----------------+-----------------+-----------------+
+
+
+     Analysis of relaxed properties:
+     ===============================
+
+
+     dipole moment:
+     --------------
+
+     x     -2.50958737
+     y      0.08621870
+     z     -0.24909181
+
+     | dipole moment | =      2.52339239 a.u. =      6.41382309 debye
+
+
+     traceless quadrupole tensor:
+     ----------------------------
+
+               x              y              z
+
+     x    12.17898809    -0.36615297    -2.98167694
+     y                  -10.71388630     0.72072735
+     z                                  -1.46510179
+
+
+     principal axes of tensor: 
+
+      x' = (   0.9784389,  -0.0215202,  -0.2054122 )
+      y' = (   0.0061302,   0.9971446,  -0.0752668 )
+      z' = (   0.2064455,   0.0723848,   0.9757770 )
+
+     < Q(x'x') > =     12.81301092 a.u.
+     < Q(y'y') > =    -10.77053955 a.u.
+     < Q(z'z') > =     -2.04247137 a.u.
+
+
+     second moment of electron density:
+     ----------------------------------
+
+               x              y              z
+
+     x  3027.03749626  -249.51570108   688.95444975
+     y                  141.42158041   -54.52969617
+     z                                 612.00393516
+
+
+     principal axes of tensor: 
+
+      x' = (   0.9633889,  -0.0823117,   0.2551599 )
+      y' = (   0.0887871,   0.9959530,  -0.0139438 )
+      z' = (  -0.2529796,   0.0360882,   0.9667983 )
+
+     < x'x'> =   3230.83019351 a.u.
+     < y'y'> =    119.94123296 a.u.
+     < z'z'> =    429.69158536 a.u.
+
+     Isotropic second moment:     alpha =   1260.15433728 a.u.
+
+     Anisotropy of second moment:  beta =   2621.12321243 a.u.
+ 
+
+
+     Analysis of unrelaxed properties:
+     =================================
+
+
+     dipole moment:
+     --------------
+
+     x     -2.70301129
+     y      0.11104564
+     z     -0.32851656
+
+     | dipole moment | =      2.72516501 a.u. =      6.92667788 debye
+
+
+     traceless quadrupole tensor:
+     ----------------------------
+
+               x              y              z
+
+     x    12.11497217    -0.49246321    -2.58511800
+     y                  -10.80512287     0.69798472
+     z                                  -1.30984930
+
+
+     principal axes of tensor: 
+
+      x' = (   0.9826202,  -0.0261428,  -0.1837771 )
+      y' = (   0.0135923,   0.9975086,  -0.0692229 )
+      z' = (   0.1851289,   0.0655219,   0.9805275 )
+
+     < Q(x'x') > =     12.61156262 a.u.
+     < Q(y'y') > =    -10.86027052 a.u.
+     < Q(z'z') > =     -1.75129210 a.u.
+
+
+     second moment of electron density:
+     ----------------------------------
+
+               x              y              z
+
+     x  3026.75256038  -249.43149425   688.69007712
+     y                  141.15479163   -54.51453442
+     z                                 611.57282034
+
+
+     principal axes of tensor: 
+
+      x' = (   0.9634148,  -0.0822892,   0.2550692 )
+      y' = (   0.0887398,   0.9959583,  -0.0138651 )
+      z' = (  -0.2528974,   0.0359926,   0.9668234 )
+
+     < x'x'> =   3230.39192291 a.u.
+     < y'y'> =    119.68939060 a.u.
+     < z'z'> =    429.39885884 a.u.
+
+     Isotropic second moment:     alpha =   1259.82672412 a.u.
+
+     Anisotropy of second moment:  beta =   2621.21176559 a.u.
+ 
+     Difference in isotropic second moment relative to ground state:
+       Delta alpha =    0.654413 a.u. (     0.1%)
+ 
+          -----------------------------------------------
+           total gradient of CC2 energy of excited state     
+          -----------------------------------------------
+
+          ------------------------------------------------
+           cartesian gradient of the energy (hartree/bohr)
+          ------------------------------------------------
+
+  ATOM      1 c           2 c           3 c           4 c           5 c 
+dE/dx  0.5931464D-01 -0.1257986D-01  0.1939273D-01 -0.1608041D-01  0.1465217D-01
+dE/dy -0.5644323D-02  0.5353838D-03 -0.6668897D-02  0.1549044D-02  0.2892378D-02
+dE/dz  0.1931312D-01 -0.3321426D-01 -0.3881814D-02 -0.5434195D-02  0.1509643D-01
+
+  ATOM      6 c           7 h           8 h           9 h          10 h 
+dE/dx -0.2980119D-01  0.2788546D-03  0.4716500D-03 -0.4179967D-03  0.4244361D-03
+dE/dy  0.4218282D-02 -0.7910501D-03 -0.1108980D-02  0.9833204D-04  0.1031983D-02
+dE/dz  0.1941733D-01 -0.1456860D-02 -0.2562322D-03 -0.1812277D-03  0.5442500D-03
+
+  ATOM     11 h          12 c          13 c          14 c          15 c 
+dE/dx -0.4112312D-03 -0.6745046D-01  0.1342990D-01 -0.2198623D-01  0.1807209D-01
+dE/dy  0.8366442D-03  0.4224016D-02 -0.1853825D-02 -0.2289439D-02 -0.2092768D-02
+dE/dz  0.1192291D-02 -0.1436405D-01  0.3564746D-01  0.1119803D-01  0.6598312D-02
+
+  ATOM     16 c          17 c          18 h          19 h          20 o 
+dE/dx -0.1521945D-01  0.4356905D-01  0.3733020D-03 -0.1631008D-03 -0.1226192D-01
+dE/dy  0.6775672D-02 -0.2618927D-02 -0.1930979D-03 -0.8045549D-03  0.4312451D-03
+dE/dz -0.2457635D-01 -0.2198421D-01 -0.2472383D-03  0.2744539D-03 -0.2193135D-02
+
+  ATOM     21 h          22 h          23 c          24 h          25 h 
+dE/dx -0.3017581D-03  0.2680575D-03  0.8993293D-02 -0.4961160D-03 -0.1001178D-02
+dE/dy  0.8655056D-03  0.1074730D-03  0.1080604D-02 -0.6313348D-04 -0.2695158D-03
+dE/dz -0.4465497D-03  0.8596528D-04 -0.3179876D-02  0.3366340D-03  0.8847692D-03
+
+  ATOM     26 h 
+dE/dx -0.1069277D-02
+dE/dy -0.2480511D-03
+dE/dz  0.8269460D-03
+ 
+ resulting FORCE  (fx,fy,fz) = (-.187D-09,-.490D-10,0.447D-10)
+ resulting MOMENT (mx,my,mz) = (-.480D-05,-.552D-05,-.287D-05)
+
+
+ **********************************************************************
+  |maximum component of gradient| : 0.67450461E-01  (atom 12 c )       
+   gradient norm                  : 0.13562355    
+ **********************************************************************
+
+
+  +=========================================================================+
+  |  Excited state reached by transition:                   model: CC2      |
+  |    number, symmetry, multiplicity:    4 a    1                          |
+  |    frequency :   0.2265606654 a.u.     6.16503 e.V.     49724.3 rcm     |
+  +=========================================================================+
+
+      Total energy of excited state:    -576.3920199279
+
+   +-----------------+-----------------+-----------------+-----------------+
+   | operator        | expect. value   | electr. contrib.| diff to gr.st.  |
+   +-----------------+-----------------+-----------------+-----------------+
+   | xdiplen (unrel) |     -3.39829876 |    -13.71367981 |     -2.89507700 |
+   | xdiplen (relax) |     -3.11943879 |    -13.43481984 |       ---       |
+   | ydiplen (unrel) |      0.18785098 |     -4.20786492 |      0.27610785 |
+   | ydiplen (relax) |      0.15463713 |     -4.24107877 |       ---       |
+   | zdiplen (unrel) |     -0.60437082 |     14.72631102 |     -0.91236965 |
+   | zdiplen (relax) |     -0.48945888 |     14.84122297 |       ---       |
+   | xxqudlen(unrel) |    -54.73229267 |  -3031.06454944 |     -4.77940113 |
+   | xxqudlen(relax) |    -54.26498182 |  -3030.59723859 |       ---       |
+   | xyqudlen(unrel) |      0.05004401 |    249.80984707 |      0.45829279 |
+   | xyqudlen(relax) |      0.07694866 |    249.83675171 |       ---       |
+   | xzqudlen(unrel) |     -2.85176107 |   -689.81842620 |     -0.71466975 |
+   | xzqudlen(relax) |     -2.87750386 |   -689.84416898 |       ---       |
+   | yyqudlen(unrel) |    -65.97028478 |   -141.42470943 |     -0.82447353 |
+   | yyqudlen(relax) |    -66.22575710 |   -141.68018175 |       ---       |
+   | yzqudlen(unrel) |      0.25600270 |     54.30521397 |     -0.66486397 |
+   | yzqudlen(relax) |      0.25084907 |     54.30006034 |       ---       |
+   | zzqudlen(unrel) |    -59.92959710 |   -612.13223283 |     -1.50068222 |
+   | zzqudlen(relax) |    -60.30469668 |   -612.50733242 |       ---       |
+   +-----------------+-----------------+-----------------+-----------------+
+
+
+     Analysis of relaxed properties:
+     ===============================
+
+
+     dipole moment:
+     --------------
+
+     x     -3.11943879
+     y      0.15463713
+     z     -0.48945888
+
+     | dipole moment | =      3.16138910 a.u. =      8.03544881 debye
+
+
+     traceless quadrupole tensor:
+     ----------------------------
+
+               x              y              z
+
+     x     9.00024507     0.11542299    -4.31625579
+     y                   -8.94091785     0.37627361
+     z                                  -0.05932722
+
+
+     principal axes of tensor: 
+
+      x' = (   0.9284094,  -0.0016599,  -0.3715553 )
+      y' = (  -0.0187395,   0.9985082,  -0.0512852 )
+      z' = (   0.3710861,   0.0545765,   0.9269933 )
+
+     < Q(x'x') > =     10.72743137 a.u.
+     < Q(y'y') > =     -8.96241016 a.u.
+     < Q(z'z') > =     -1.76502121 a.u.
+
+
+     second moment of electron density:
+     ----------------------------------
+
+               x              y              z
+
+     x  3030.59723859  -249.83675171   689.84416898
+     y                  141.68018175   -54.30006034
+     z                                 612.50733242
+
+
+     principal axes of tensor: 
+
+      x' = (   0.9633908,  -0.0822982,   0.2551574 )
+      y' = (   0.0890212,   0.9959184,  -0.0148926 )
+      z' = (  -0.2528903,   0.0370618,   0.9667848 )
+
+     < x'x'> =   3234.64727227 a.u.
+     < y'y'> =    120.16024784 a.u.
+     < z'z'> =    429.97723264 a.u.
+
+     Isotropic second moment:     alpha =   1261.59491758 a.u.
+
+     Anisotropy of second moment:  beta =   2624.19412368 a.u.
+ 
+
+
+     Analysis of unrelaxed properties:
+     =================================
+
+
+     dipole moment:
+     --------------
+
+     x     -3.39829876
+     y      0.18785098
+     z     -0.60437082
+
+     | dipole moment | =      3.45673062 a.u. =      8.78613201 debye
+
+
+     traceless quadrupole tensor:
+     ----------------------------
+
+               x              y              z
+
+     x     8.21764826     0.07506602    -4.27764161
+     y                   -8.63933990     0.38400406
+     z                                   0.42169163
+
+
+     principal axes of tensor: 
+
+      x' = (   0.9146812,  -0.0046159,  -0.4041498 )
+      y' = (  -0.0171958,   0.9985849,  -0.0503231 )
+      z' = (   0.4038102,   0.0529793,   0.9133075 )
+
+     < Q(x'x') > =     10.10733555 a.u.
+     < Q(y'y') > =     -8.65998420 a.u.
+     < Q(z'z') > =     -1.44735135 a.u.
+
+
+     second moment of electron density:
+     ----------------------------------
+
+               x              y              z
+
+     x  3031.06454944  -249.80984707   689.81842620
+     y                  141.42470943   -54.30521397
+     z                                 612.13223283
+
+
+     principal axes of tensor: 
+
+      x' = (   0.9634136,  -0.0822735,   0.2550790 )
+      y' = (   0.0889712,   0.9959241,  -0.0148107 )
+      z' = (  -0.2528208,   0.0369635,   0.9668068 )
+
+     < x'x'> =   3235.03815714 a.u.
+     < y'y'> =    119.91546361 a.u.
+     < z'z'> =    429.66787095 a.u.
+
+     Isotropic second moment:     alpha =   1261.54049723 a.u.
+
+     Anisotropy of second moment:  beta =   2624.97628677 a.u.
+ 
+     Difference in isotropic second moment relative to ground state:
+       Delta alpha =    2.368186 a.u. (     0.2%)
+ 
+          -----------------------------------------------
+           total gradient of CC2 energy of excited state     
+          -----------------------------------------------
+
+          ------------------------------------------------
+           cartesian gradient of the energy (hartree/bohr)
+          ------------------------------------------------
+
+  ATOM      1 c           2 c           3 c           4 c           5 c 
+dE/dx  0.2374847D-01  0.3419125D-01 -0.2292842D-01 -0.1198089D-01 -0.2827800D-01
+dE/dy -0.5739080D-02 -0.1454345D-02 -0.1985676D-02  0.3108007D-02  0.5759007D-02
+dE/dz  0.2241483D-02 -0.1197951D-02 -0.1536526D-01  0.7412301D-03 -0.6032138D-02
+
+  ATOM      6 c           7 h           8 h           9 h          10 h 
+dE/dx  0.2240623D-01  0.1750506D-02 -0.8766655D-05 -0.4134118D-03 -0.4299321D-03
+dE/dy -0.2579551D-02 -0.1935802D-02 -0.8083259D-04  0.1167025D-03  0.1005587D-03
+dE/dz  0.2475965D-01 -0.2602967D-03 -0.7889043D-03 -0.3390035D-04  0.5927128D-03
+
+  ATOM     11 h          12 c          13 c          14 c          15 c 
+dE/dx  0.1551782D-02 -0.3712033D-01  0.9448723D-02 -0.1408869D-01  0.1774965D-01
+dE/dy  0.1609155D-02  0.3298571D-02 -0.3444379D-02 -0.2224299D-02 -0.1157131D-02
+dE/dz  0.1325766D-02 -0.5277238D-02  0.1806255D-01  0.7160956D-02  0.4229608D-02
+
+  ATOM     16 c          17 c          18 h          19 h          20 o 
+dE/dx -0.8788769D-02  0.2727609D-01 -0.1925927D-02 -0.9755783D-04 -0.1683117D-01
+dE/dy  0.3403613D-02  0.1118478D-02  0.8528555D-03 -0.3395757D-04  0.6685775D-03
+dE/dz -0.1236061D-01 -0.1139207D-01 -0.4557897D-03  0.7814516D-03 -0.2668743D-02
+
+  ATOM     21 h          22 h          23 c          24 h          25 h 
+dE/dx  0.1949144D-03 -0.1967050D-02  0.8468591D-02 -0.5205862D-03 -0.6921947D-03
+dE/dy  0.1344878D-03 -0.2467264D-03  0.1332587D-02 -0.1860181D-04 -0.4805392D-03
+dE/dz -0.7334321D-03 -0.9549465D-03 -0.4646807D-02  0.1405233D-03  0.1024433D-02
+
+  ATOM     26 h 
+dE/dx -0.7144926D-03
+dE/dy -0.1216794D-03
+dE/dz  0.1107727D-02
+ 
+ resulting FORCE  (fx,fy,fz) = (-.111D-09,-.537D-10,0.647D-10)
+ resulting MOMENT (mx,my,mz) = (-.172D-05,-.565D-05,-.138D-05)
+
+
+ **********************************************************************
+  |maximum component of gradient| : 0.37120334E-01  (atom 12 c )       
+   gradient norm                  : 0.93005832E-01
+ **********************************************************************
+
+
+  +=========================================================================+
+  |  Excited state reached by transition:                   model: CC2      |
+  |    number, symmetry, multiplicity:    5 a    1                          |
+  |    frequency :   0.2325839918 a.u.     6.32893 e.V.     51046.3 rcm     |
+  +=========================================================================+
+
+      Total energy of excited state:    -576.3859966016
+
+   +-----------------+-----------------+-----------------+-----------------+
+   | operator        | expect. value   | electr. contrib.| diff to gr.st.  |
+   +-----------------+-----------------+-----------------+-----------------+
+   | xdiplen (unrel) |     -1.27319465 |    -11.58857569 |     -0.76997289 |
+   | xdiplen (relax) |     -1.21100849 |    -11.52638953 |       ---       |
+   | ydiplen (unrel) |      0.05992513 |     -4.33579077 |      0.14818201 |
+   | ydiplen (relax) |      0.02786355 |     -4.36785235 |       ---       |
+   | zdiplen (unrel) |     -0.11201170 |     15.21867014 |     -0.42001053 |
+   | zdiplen (relax) |     -0.01787320 |     15.31280864 |       ---       |
+   | xxqudlen(unrel) |    -49.04413203 |  -3025.37638879 |      0.90875951 |
+   | xxqudlen(relax) |    -49.46243052 |  -3025.79468728 |       ---       |
+   | xyqudlen(unrel) |     -0.53896422 |    249.22083884 |     -0.13071543 |
+   | xyqudlen(relax) |     -0.44811163 |    249.31169143 |       ---       |
+   | xzqudlen(unrel) |     -1.08357239 |   -688.05023751 |      1.05351893 |
+   | xzqudlen(relax) |     -1.45067270 |   -688.41733782 |       ---       |
+   | yyqudlen(unrel) |    -65.71766909 |   -141.17209374 |     -0.57185783 |
+   | yyqudlen(relax) |    -65.98313772 |   -141.43756237 |       ---       |
+   | yzqudlen(unrel) |      0.53607648 |     54.58528774 |     -0.38479020 |
+   | yzqudlen(relax) |      0.61692713 |     54.66613840 |       ---       |
+   | zzqudlen(unrel) |    -58.58923796 |   -610.79187369 |     -0.16032308 |
+   | zzqudlen(relax) |    -59.14842726 |   -611.35106300 |       ---       |
+   +-----------------+-----------------+-----------------+-----------------+
+
+
+     Analysis of relaxed properties:
+     ===============================
+
+
+     dipole moment:
+     --------------
+
+     x     -1.21100849
+     y      0.02786355
+     z     -0.01787320
+
+     | dipole moment | =      1.21146085 a.u. =      3.07922605 debye
+
+
+     traceless quadrupole tensor:
+     ----------------------------
+
+               x              y              z
+
+     x    13.10335197    -0.67216744    -2.17600904
+     y                  -11.67770883     0.92539070
+     z                                  -1.42564315
+
+
+     principal axes of tensor: 
+
+      x' = (   0.9886789,  -0.0318500,  -0.1466277 )
+      y' = (   0.0194828,   0.9961887,  -0.0850206 )
+      z' = (   0.1487768,   0.0812013,   0.9855312 )
+
+     < Q(x'x') > =     13.44772246 a.u.
+     < Q(y'y') > =    -11.76983291 a.u.
+     < Q(z'z') > =     -1.67788955 a.u.
+
+
+     second moment of electron density:
+     ----------------------------------
+
+               x              y              z
+
+     x  3025.79468728  -249.31169143   688.41733782
+     y                  141.43756237   -54.66613840
+     z                                 611.35106300
+
+
+     principal axes of tensor: 
+
+      x' = (   0.9634177,  -0.0822998,   0.2550551 )
+      y' = (   0.0886142,   0.9959766,  -0.0133452 )
+      z' = (  -0.2529306,   0.0354585,   0.9668344 )
+
+     < x'x'> =   3229.34366770 a.u.
+     < y'y'> =    119.98824052 a.u.
+     < z'z'> =    429.25140442 a.u.
+
+     Isotropic second moment:     alpha =   1259.52777088 a.u.
+
+     Anisotropy of second moment:  beta =   2620.20591066 a.u.
+ 
+
+
+     Analysis of unrelaxed properties:
+     =================================
+
+
+     dipole moment:
+     --------------
+
+     x     -1.27319465
+     y      0.05992513
+     z     -0.11201170
+
+     | dipole moment | =      1.27951642 a.u. =      3.25220603 debye
+
+
+     traceless quadrupole tensor:
+     ----------------------------
+
+               x              y              z
+
+     x    13.10932149    -0.80844632    -1.62535859
+     y                  -11.90098409     0.80411471
+     z                                  -1.20833740
+
+
+     principal axes of tensor: 
+
+      x' = (   0.9929605,  -0.0354279,  -0.1130237 )
+      y' = (   0.0275780,   0.9971463,  -0.0702765 )
+      z' = (   0.1151909,   0.0666648,   0.9911039 )
+
+     < Q(x'x') > =     13.32317250 a.u.
+     < Q(y'y') > =    -11.98001536 a.u.
+     < Q(z'z') > =     -1.34315714 a.u.
+
+
+     second moment of electron density:
+     ----------------------------------
+
+               x              y              z
+
+     x  3025.37638879  -249.22083884   688.05023751
+     y                  141.17209374   -54.58528774
+     z                                 610.79187369
+
+
+     principal axes of tensor: 
+
+      x' = (   0.9634523,  -0.0822750,   0.2549324 )
+      y' = (   0.0886102,   0.9959756,  -0.0134458 )
+      z' = (  -0.2528002,   0.0355440,   0.9668654 )
+
+     < x'x'> =   3228.71907380 a.u.
+     < y'y'> =    119.73626980 a.u.
+     < z'z'> =    428.88501263 a.u.
+
+     Isotropic second moment:     alpha =   1259.11345208 a.u.
+
+     Anisotropy of second moment:  beta =   2620.21757404 a.u.
+ 
+     Difference in isotropic second moment relative to ground state:
+       Delta alpha =   -0.058860 a.u. (    -0.0%)
+ 
+          -----------------------------------------------
+           total gradient of CC2 energy of excited state     
+          -----------------------------------------------
+
+          ------------------------------------------------
+           cartesian gradient of the energy (hartree/bohr)
+          ------------------------------------------------
+
+  ATOM      1 c           2 c           3 c           4 c           5 c 
+dE/dx  0.2478026D-01 -0.2063151D-02  0.5315404D-02 -0.1403290D-01  0.1410282D-02
+dE/dy  0.6760549D-03 -0.7529172D-02 -0.4531086D-02 -0.8341082D-03  0.5878917D-02
+dE/dz  0.1893615D-01 -0.2114375D-01 -0.8098122D-02 -0.1160264D-01  0.1742224D-01
+
+  ATOM      6 c           7 h           8 h           9 h          10 h 
+dE/dx -0.6773918D-02 -0.7569151D-04  0.2832250D-03  0.4763495D-04  0.1015293D-03
+dE/dy  0.5522507D-02 -0.1404191D-04  0.5255270D-04 -0.3327672D-03 -0.1374921D-03
+dE/dz  0.1031548D-01 -0.1580267D-03  0.2717339D-04 -0.5089820D-04  0.1521214D-03
+
+  ATOM     11 h          12 c          13 c          14 c          15 c 
+dE/dx  0.1347280D-03 -0.3285754D-01 -0.1971673D-01  0.7788754D-02  0.1257723D-01
+dE/dy  0.3889758D-03 -0.2786564D-02  0.2083968D-02 -0.6805688D-02  0.5856339D-02
+dE/dz  0.6271363D-04  0.1228076D-01 -0.7706580D-02  0.2195328D-01 -0.2274237D-01
+
+  ATOM     16 c          17 c          18 h          19 h          20 o 
+dE/dx  0.3062597D-02  0.1849184D-01 -0.3783688D-03 -0.3556781D-04  0.7090822D-03
+dE/dy -0.1288662D-02  0.5333158D-02 -0.4256860D-03  0.4813436D-03 -0.1288481D-02
+dE/dz  0.2458513D-02 -0.1905626D-01 -0.3382285D-04  0.9222205D-03  0.5079789D-02
+
+  ATOM     21 h          22 h          23 c          24 h          25 h 
+dE/dx  0.3120432D-03  0.4514113D-03  0.4060098D-02 -0.3275188D-03 -0.1541242D-02
+dE/dy  0.5905658D-05 -0.1045050D-03 -0.1224869D-03 -0.8507266D-04  0.2385810D-03
+dE/dz -0.2599503D-03  0.1215631D-03  0.8262401D-03  0.3295307D-03  0.6510264D-04
+
+  ATOM     26 h 
+dE/dx -0.1723489D-02
+dE/dy -0.2324900D-03
+dE/dz -0.1004643D-03
+ 
+ resulting FORCE  (fx,fy,fz) = (-.293D-09,-.219D-10,0.513D-10)
+ resulting MOMENT (mx,my,mz) = (-.117D-05,-.594D-05,-.199D-05)
+
+
+ **********************************************************************
+  |maximum component of gradient| : 0.32857538E-01  (atom 12 c )       
+   gradient norm                  : 0.79016521E-01
+ **********************************************************************
+ Exporting excited state densities
+
+
+    ------------------------------------------------------------------------
+         total  cpu-time : 23 hours 13 minutes and 22 seconds
+         total wall-time : 11 hours 41 minutes and  4 seconds
+    ------------------------------------------------------------------------
+
+
+   ****  ricc2 : all done  ****
+
+
+    2017-01-12 04:41:45.191 
+
